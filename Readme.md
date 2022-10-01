@@ -27,12 +27,13 @@ and background images work correctly.
 
 1. Create a text file in the `text` directory. It should be named after the
    table name, but without spaces. It must end with the `.txt` extension.
+   The file prefix must be `nnn_` where `nnn` is a 3 digit number that defines
+   the order in which the table will appear in the PDF.
 2. In the new text file, the first line is the table name as it should appear in
    the PDF. Each subsequent line is the text for each entry in the table.
    References to sub-tables must have the sub-table name in square brackets.
    This will let you almost copy and paste directly from the RPGG thread.
-3. Input the tex file into the ./RPGG_RANDOM_Design_Experience_2022.tex file.
-4. Compile and test.
+3. Compile and test.
 
 ## Preview
 
