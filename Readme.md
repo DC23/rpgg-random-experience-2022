@@ -11,22 +11,26 @@ Fork the repo and submit pull-requests in the usual way.
 
 ### To Compile the Documents
 
-You need a working Tex environment. I use `texlive-full` in Ubuntu. If you know
+**Requirements:**
+
+* Python 3
+* A working Tex environment. I use `texlive-full` in Ubuntu. If you know
 what you are doing you could work out the required packages for a minimal Tex
 environment by looking at `header.tex`.
-
-You will also need to install the [DND 5e LaTeX Template
+* Install the [DND 5e LaTeX Template
 package](https://github.com/rpgtex/DND-5e-LaTeX-Template).
-
-Finally, you need `Make` to use the `Makefile`. Or you could reconstruct the 
+* `Make` to use the `Makefile`. Or you could reconstruct the
 command line from the Makefile, but remember to compile twice so the layout
 and background images work correctly.
 
 ### To Add a New Table
 
-1. Copy the `_table_template.tex` file to a new file with an appropriate name.
-2. `\input` the new table into the required location in
-   `events_I_dont_want_to_run.tex`.
+1. Create a text file in the `text` directory. It should be named after the
+   table name, but without spaces. It must end with the `.txt` extension.
+2. In the new text file, the first line is the table name as it should appear in
+   the PDF. Each subsequent line is the text for each entry in the table.
+   References to sub-tables must have the sub-table name in square brackets.
+   This will let you almost copy and paste directly from the RPGG thread.
 3. Compile and test.
 
 ## Preview
