@@ -3,11 +3,11 @@ TEX_COMPILER=pdflatex
 TEX_OPTIONS=--interaction=nonstopmode
 TEX=$(TEX_COMPILER) $(TEX_OPTIONS)
 TEX_FILES=$(wildcard *.tex)
-VERSION=0.2.0
-TABLES_A4_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4_v$(VERSION) "\documentclass[bg=full, 10pt, a4paper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
-TABLES_A4_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4_print_v$(VERSION) "\documentclass[bg=print, 10pt, a4paper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
-TABLES_LETTER_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter_v$(VERSION) "\documentclass[bg=full, 10pt, letterpaper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
-TABLES_LETTER_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter_print_v$(VERSION) "\documentclass[bg=print, 10pt, letterpaper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_A4_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4 "\documentclass[bg=full, 10pt, a4paper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_A4_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4_print "\documentclass[bg=print, 10pt, a4paper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_LETTER_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter "\documentclass[bg=full, 10pt, letterpaper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_LETTER_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter_print "\documentclass[bg=print, 10pt, letterpaper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+
 
 .SILENT:
 .IGNORE:
@@ -30,8 +30,8 @@ letter_print: $(TEX_FILES)
 	$(TABLES_LETTER_PRINT_CMD)
 	$(TABLES_LETTER_PRINT_CMD)
 
-preview: ./RPGG_RANDOM_Design_Experience_2022_letter_v$(VERSION).pdf
-	pdftoppm -jpeg -rx 120 -ry 120 -f 1 -l 1 RPGG_RANDOM_Design_Experience_2022_letter_v$(VERSION).pdf preview
+preview: ./RPGG_RANDOM_Design_Experience_2022_letter.pdf
+	pdftoppm -jpeg -rx 120 -ry 120 -f 1 -l 1 RPGG_RANDOM_Design_Experience_2022_letter.pdf preview
 	mv preview-1.jpg preview.jpg
 
 .PHONY: clean
