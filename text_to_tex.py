@@ -1,7 +1,7 @@
 from pathlib import Path
 
 TABLE_HEADER = """\\begin\\{{DndTable}}[header={table_name}]{{c X}}
-    \\textbf{{Roll}} & \\textbf{{Result}} \\\\ \n"""
+    \\textbf{{Roll}} & \\textbf{{Result}} \\\\\n"""
 TABLE_FOOTER = "\\end{{DndTable}}"
 
 
@@ -19,12 +19,14 @@ def emit_table_footer(f):
     f.write(TABLE_FOOTER)
 
 
+# Yes, I could use click to add command line parsing and then make the Makefile
+# much smarter but transforming all text files every build is so fast anyway.
 if __name__ == "__main__":
     # ensure output directory exists
-    output_directory = Path("./output")
+    output_directory = Path("./tex")
     output_directory.mkdir(exist_ok=True)
 
-    for input_path in Path("./text_tables/").glob("*.txt"):
+    for input_path in Path("./text/").glob("*.txt"):
         # create the output file
         output_path = Path.joinpath(
             output_directory, Path(input_path.name).with_suffix(".tex")

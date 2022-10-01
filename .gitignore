@@ -3,4 +3,4 @@
 *.toc
 *.out
 .vscode/
-output/
+tex/
