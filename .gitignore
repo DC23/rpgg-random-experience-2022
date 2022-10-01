@@ -4,3 +4,4 @@
 *.out
 .vscode/
 tex/
+lib/

@@ -1,0 +1,29 @@
+name: GitHub CI
+
+on: [push]
+
+permissions:
+  contents: write
+
+jobs:
+  minimal:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install packages
+      run: |
+        sudo apt-get update
+        sudo apt-get -yq --force-yes install \
+            texlive-latex-base texlive-fonts-recommended \
+            texlive-fonts-extra texlive-latex-extra \
+            texlive-science poppler-utils
+    - name: clone DND-5e-LaTeX-Template
+      run: |
+        mkdir lib
+        git clone https://github.com/rpgtex/DND-5e-LaTeX-Template.git lib/dnd
+    - name: build
+      run: |
+        make TEXINPUTS=./lib//:
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automatic generation of PDF and previews
