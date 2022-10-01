@@ -33,6 +33,7 @@ and background images work correctly.
    the PDF. Each subsequent line is the text for each entry in the table.
    References to sub-tables must have the sub-table name in square brackets.
    This will let you almost copy and paste directly from the RPGG thread.
+   Look at the existing `text/*.txt` files for examples.
 3. Compile and test.
 
 ## Preview
