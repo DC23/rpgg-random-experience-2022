@@ -31,7 +31,8 @@ and background images work correctly.
    the PDF. Each subsequent line is the text for each entry in the table.
    References to sub-tables must have the sub-table name in square brackets.
    This will let you almost copy and paste directly from the RPGG thread.
-3. Compile and test.
+3. Input the tex file into the ./RPGG_RANDOM_Design_Experience_2022.tex file.
+4. Compile and test.
 
 ## Preview
 
