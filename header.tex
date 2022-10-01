@@ -31,3 +31,24 @@
 \newcommand{\version}{0.1.0}
 \date{September 2022\newline{}v\version}
 \author{The Geeks of RPGG}
+
+% Define a macro for markup on the sub-table references
+\newcommand\subtable[1]
+{\textbf{\emph{#1}}}
+
+% alias for the lazy typist
+\newcommand\st[1]{\subtable{#1}}
+
+\newcommand\tableheading[1]{\subsubsection{#1}}
+
+% define commands for the table so we can mess around with the table format easily
+% while this seemed like a good idea, I can't get the DndTable to work in the environment.
+% \newenvironment{RandomTable}[1]
+%   {
+%     \subsubsection{#1}
+%     \begin{DndTable}[]{c X}
+%     \textbf{Roll} & \textbf{Result} \\
+%   }
+%   {
+%     \end{DndTable}
+%   }
