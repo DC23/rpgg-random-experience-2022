@@ -18,7 +18,9 @@ environment by looking at `header.tex`.
 You will also need to install the [DND 5e LaTeX Template
 package](https://github.com/rpgtex/DND-5e-LaTeX-Template).
 
-You will also require `Make` to use the `Makefile`.
+Finally, you need `Make` to use the `Makefile`. Or you could reconstruct the 
+command line from the Makefile, but remember to compile twice so the layout
+and background images work correctly.
 
 ### To Add a New Table
 
