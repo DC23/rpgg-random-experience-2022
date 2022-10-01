@@ -1,8 +1,9 @@
 from pathlib import Path
 
-TABLE_HEADER = """\\begin\\{{DndTable}}[header={table_name}]{{c X}}
+# TABLE_HEADER is used as a format pattern, so curly braces have to be escaped
+TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X}}
     \\textbf{{Roll}} & \\textbf{{Result}} \\\\\n"""
-TABLE_FOOTER = "\\end{{DndTable}}"
+TABLE_FOOTER = "\\end{DndTable}"
 
 
 def emit_table_header(f, name):
@@ -12,7 +13,7 @@ def emit_table_header(f, name):
 # $1$ &  The temporal conflict between \st{Faction} and \st{Faction} brought on by the
 def emit_table_row(f, line: str, number: int = 1):
     line = line.replace("[", r"\subtable{").replace("]", "}")
-    f.write(f"    {number} & {line}\n")
+    f.write(f"    {number} & {line} \\\\\n")
 
 
 def emit_table_footer(f):
