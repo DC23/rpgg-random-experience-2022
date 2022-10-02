@@ -1,9 +1,9 @@
 Factions
-Thieves' Guild
-Bards
-Mutant Association
-The Posh Gentleman's Social Club (monocles at ten paces!)
-Grandma's Sewing and Knitting Group (beware all the sharp pointy things)
-Association for the Peaceful Annexation of [Planet] by our Benevolent Ancient Ones (APA[P]BAO for short)
-Coven of the Great Unwashed
-7th Ave Window Cleaners
+01. Dutys_Fist           Thieves' Guild
+02. ThroughTheDeckGlass  Bards
+03. ThroughTheDeckGlass  Mutant Association
+04. paulidale            The Posh Gentleman's Social Club (monocles at ten paces!)
+05. paulidale            Grandma's Sewing and Knitting Group (beware all the sharp pointy things)
+06. Dutys_Fist           Association for the Peaceful Annexation of [Planet] by our Benevolent Ancient Ones (APA[P]BAO for short)
+07. Steerpike.Instance   Coven of the Great Unwashed
+08. Steerpike.Instance   7th Ave Window Cleaners
