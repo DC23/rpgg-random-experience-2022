@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 
-re_line = re.compile(r"(\d*)\.\s([\.\w]+)\s(.*$)")
+re_line = re.compile(r"(\d*)\.?\s([\.\w]+)\s(.*$)")
 
 def escape_tex_line(line: str):
     return line.replace("_", r"\_")
@@ -33,7 +33,6 @@ class IgnoreContributorsLineParser:
     # TABLE_HEADER is used as a format pattern, so curly braces have to be escaped
     TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X}}
         \\textbf{{Roll}} & \\textbf{{Result}} \\\\\n"""
-    TABLE_FOOTER = "\\end{DndTable}"
 
     def _emit_table_header(self, f, name):
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
@@ -42,7 +41,7 @@ class IgnoreContributorsLineParser:
         f.write(f"    {number} & {content} \\\\\n")
 
     def parse_table_footer(self, f):
-        f.write(self.TABLE_FOOTER)
+        f.write("\\end{DndTable}")
 
     def parse_first_line(self, output_file, line):
         table_name = line.strip()
@@ -51,6 +50,35 @@ class IgnoreContributorsLineParser:
     def parse_table_entry(self, output_file, row_number, line):
         _, _, content = unpack_table_entry(line)
         self._emit_table_row(output_file, content, row_number)
+
+    def emit_main_file_footer(self, f):
+        pass
+
+# Yes, I know have a bad smell from the duplicated code.
+# I could refactor into a better design, but I seriously don't care that much.
+# This is not a critical library or anything.
+class ContributorsAsColumnLineParser:
+    "Line parser that outputs contributors as a third table column"
+
+    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X X}}
+        \\textbf{{Roll}} & \\textbf{{Result}} & \\textbf{{Contributor}}\\\\\n"""
+
+    def _emit_table_header(self, f, name):
+        f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
+
+    def _emit_table_row(self, f, content: str, contributor: str, number: int = 1):
+        f.write(f"    {number} & {content} & {contributor}\\\\\n")
+
+    def parse_table_footer(self, f):
+        f.write("\\end{DndTable}")
+
+    def parse_first_line(self, output_file, line):
+        table_name = line.strip()
+        self._emit_table_header(output_file, table_name)
+
+    def parse_table_entry(self, output_file, row_number, line):
+        number, contributor, content = unpack_table_entry(line)
+        self._emit_table_row(output_file, content, contributor, number)
 
     def emit_main_file_footer(self, f):
         pass
@@ -108,5 +136,6 @@ class TableParser:
 # support various output options
 if __name__ == "__main__":
 
-    parser = TableParser(IgnoreContributorsLineParser())
+    # parser = TableParser(IgnoreContributorsLineParser())
+    parser = TableParser(ContributorsAsColumnLineParser())
     parser.parse()
