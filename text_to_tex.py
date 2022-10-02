@@ -147,7 +147,7 @@ class ContributorsAsAppendixLineParser:
         # Start the contributors chapter
         f.write("\\chapter*{Contributors}\n")
 
-        for n, contributor in self.contributors.items():
+        for contributor, n in self.contributors.items():
         # for n in range(500):
         #     contributor = str(n)
 
