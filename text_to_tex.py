@@ -45,8 +45,10 @@ class IgnoreContributorsLineParser:
     "Line parser that completely ignores contributor information"
 
     # TABLE_HEADER is used as a format pattern, so curly braces have to be escaped
-    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X}}
-        \\textbf{{Roll}} & \\textbf{{Result}} \\\\\n"""
+    TABLE_HEADER = """
+\\subsubsection{{{table_name}}}
+\\begin{{DndTable}}[]{{c X}}
+\\textbf{{Roll}} & \\textbf{{Result}} \\\\\n"""
 
     def _emit_table_header(self, f, name):
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
@@ -76,8 +78,10 @@ class IgnoreContributorsLineParser:
 class ContributorsAsColumnLineParser:
     "Line parser that outputs contributors as a third table column"
 
-    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X l}}
-        \\textbf{{Roll}} & \\textbf{{Result}} & \\textbf{{Contributor}}\\\\\n"""
+    TABLE_HEADER = """
+\\subsubsection{{{table_name}}}
+\\begin{{DndTable}}[]{{c X l}}
+\\textbf{{Roll}} & \\textbf{{Result}} & \\textbf{{Contributor}}\\\\\n"""
 
     def _emit_table_header(self, f, name):
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
