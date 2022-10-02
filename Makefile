@@ -3,10 +3,19 @@ TEX_COMPILER=pdflatex
 TEX_OPTIONS=--interaction=nonstopmode
 TEX=$(TEX_COMPILER) $(TEX_OPTIONS)
 TEX_FILES=$(wildcard tex/*.tex) RPGG_RANDOM_Design_Experience_2022.tex
-TABLES_A4_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4 "\documentclass[bg=full, 10pt, a4paper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
-TABLES_A4_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4_print "\documentclass[bg=print, 10pt, a4paper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
-TABLES_LETTER_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter "\documentclass[bg=full, 10pt, letterpaper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
-TABLES_LETTER_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter_print "\documentclass[bg=print, 10pt, letterpaper, twoside, twocolumn, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+
+# Quick and dirty way to switch between one and two column layouts
+# COLUMNS=one
+COLUMNS=two
+
+# TEXT_TO_TEX_OPTIONS=--contrib-column
+# TEXT_TO_TEX_OPTIONS=--no-contrib
+TEXT_TO_TEX_OPTIONS=--contrib-appendix
+
+TABLES_A4_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4 "\documentclass[bg=full, 10pt, a4paper, twoside, $(COLUMNS)column, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_A4_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4_print "\documentclass[bg=print, 10pt, a4paper, twoside, $(COLUMNS)column, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_LETTER_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter "\documentclass[bg=full, 10pt, letterpaper, twoside, $(COLUMNS)column, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
+TABLES_LETTER_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_letter_print "\documentclass[bg=print, 10pt, letterpaper, twoside, $(COLUMNS)column, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
 
 
 .SILENT:
@@ -16,7 +25,7 @@ all:  a4 a4_print letter letter_print preview
 
 .PHONY: tex
 tex:
-	python text_to_tex.py
+	python text_to_tex.py $(TEXT_TO_TEX_OPTIONS)
 
 a4: tex $(TEX_FILES)
 	$(TABLES_A4_CMD)
