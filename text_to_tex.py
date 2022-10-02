@@ -1,4 +1,30 @@
+import re
 from pathlib import Path
+
+re_line = re.compile(r"(\d*)\.\s([\.\w]+)\s(.*$)")
+
+def escape_tex_line(line: str):
+    return line.replace("_", r"\_")
+
+def unpack_table_entry(line):
+    "Unpacks a table line entry into the number, contributor name, and the entry value"
+    match = re_line.match(line)
+    if match:
+        # extract values
+        num, contributor, content = match.groups()
+
+        # clean values
+        try:
+            num = int(num)
+        except ValueError:
+            num = num.strip()
+
+        contributor = escape_tex_line(contributor)
+        content = escape_tex_line(content.replace("[", r"\subtable{").replace("]", "}"))
+
+        return num, contributor.strip(), content.strip()
+    else:
+        return None, None, line
 
 
 class IgnoreContributorsLineParser:
@@ -10,11 +36,10 @@ class IgnoreContributorsLineParser:
     TABLE_FOOTER = "\\end{DndTable}"
 
     def _emit_table_header(self, f, name):
-        f.write(self.TABLE_HEADER.format(table_name=name))
+        f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
 
-    def _emit_table_row(self, f, line: str, number: int = 1):
-        line = line.replace("[", r"\subtable{").replace("]", "}")
-        f.write(f"    {number} & {line} \\\\\n")
+    def _emit_table_row(self, f, content: str, number: int = 1):
+        f.write(f"    {number} & {content} \\\\\n")
 
     def parse_table_footer(self, f):
         f.write(self.TABLE_FOOTER)
@@ -24,7 +49,8 @@ class IgnoreContributorsLineParser:
         self._emit_table_header(output_file, table_name)
 
     def parse_table_entry(self, output_file, row_number, line):
-        self._emit_table_row(output_file, line.strip(), row_number)
+        _, _, content = unpack_table_entry(line)
+        self._emit_table_row(output_file, content, row_number)
 
     def emit_main_file_footer(self, f):
         pass
