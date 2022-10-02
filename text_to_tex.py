@@ -133,17 +133,40 @@ class ContributorsAsAppendixLineParser:
         self._emit_table_row(output_file, content, contributor, number)
 
     def emit_main_file_footer(self, f):
-        f.write(
-            """
-\\chapter*{Contributors}
-\\begin{DndTable}[]{c X}
-"""
-        )
+        """
+        Emits the contributors chapter.
+        Contains a nasty hack to split into multiple tex tables to workaround
+        the fact that DndTable does not split over pages or columns.
+        The max rows per table is hardcoded based on the current layouts and
+        font sizes.
+        """
+        max_rows_per_table = 60
+        row_count = 0
+        table_closed = False  # tracks whether the current table is open or closed
 
-        for key, value in self.contributors.items():
-            f.write(f"{value} & {key} \\\\\n")
+        # Start the contributors chapter
+        f.write("\\chapter*{Contributors}\n")
 
-        f.write("\\end{DndTable}")
+        for n, contributor in self.contributors.items():
+        # for n in range(500):
+        #     contributor = str(n)
+
+            # are we starting a new table?
+            if row_count == 0:
+                f.write("\\begin{DndTable}[]{c X}\n""")
+                table_closed = False
+
+            f.write(f"    {n} & {contributor} \\\\\n")
+            row_count += 1
+
+            # is it time to close this table?
+            if row_count > max_rows_per_table - 1:
+                f.write("\\end{DndTable}\n")
+                row_count = 0
+                table_closed = True
+
+        if not table_closed:
+            f.write("\\end{DndTable}\n")
 
 
 class TableParser:
