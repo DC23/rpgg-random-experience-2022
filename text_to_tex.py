@@ -99,6 +99,38 @@ class ContributorsAsColumnLineParser:
         pass
 
 
+class ContributorsAsAppendixLineParser:
+    "Line parser that outputs contributors as an appendix"
+
+    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X l}}
+        \\textbf{{Roll}} & \\textbf{{Result}} & \\textbf{{Contributor}}\\\\\n"""
+
+    def _emit_table_header(self, f, name):
+        f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
+
+    def _emit_table_row(self, f, content: str, contributor: str, number: int = 1):
+        f.write(f"    {number} & {content} & {contributor}\\\\\n")
+
+    def parse_table_footer(self, f):
+        f.write("\\end{DndTable}")
+
+    def parse_first_line(self, output_file, line):
+        table_name = line.strip()
+        self._emit_table_header(output_file, table_name)
+
+    def parse_table_entry(self, output_file, line):
+        number, contributor, content = unpack_table_entry(line)
+        self._emit_table_row(output_file, content, contributor, number)
+
+    def emit_main_file_footer(self, f):
+        f.write(
+            """
+\\chapter*{Contributors}
+\\lipsum[1]
+            """
+        )
+
+
 class TableParser:
     "The common parsing algorithm. This code is invariant across all output options."
 
@@ -159,11 +191,20 @@ if __name__ == "__main__":
         action="store_true",
         help="Contributors in table columns",
     )
+    group.add_argument(
+        "-a",
+        "--contrib-appendix",
+        action="store_true",
+        help="Contributors in an appendix",
+    )
     args = arg_parser.parse_args()
 
     if args.contrib_column:
         print("Generating tables with contributors in a table column")
         parser = TableParser(ContributorsAsColumnLineParser())
+    if args.contrib_appendix:
+        print("Generating tables with contributors in an appendix")
+        parser = TableParser(ContributorsAsAppendixLineParser())
     else:
         print("Generating tables without contributor information")
         parser = TableParser(IgnoreContributorsLineParser())
