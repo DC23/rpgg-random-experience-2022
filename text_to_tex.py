@@ -6,7 +6,7 @@ re_line = re.compile(r"(\d*)\.?\s([\.\w]+)\s(.*$)")
 
 
 def escape_tex_line(line: str):
-    return line.replace("_", r"\_")
+    return line.replace("_", r"\_").replace("&", "\&")
 
 
 def unpack_table_entry(line: str):
@@ -107,8 +107,11 @@ class ContributorsAsAppendixLineParser:
     def __init__(self):
         self.contributors = {}
 
-    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X}}
-        \\textbf{{Roll}} & \\textbf{{Result}}\\\\\n"""
+    TABLE_HEADER = """
+\\subsubsection{{{table_name}}}
+\\begin{{DndTable}}[]{{c X}}
+\\textbf{{Roll}} & \\textbf{{Result}}\\\\
+    """
 
     def _emit_table_header(self, f, name):
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
