@@ -3,11 +3,23 @@ from pathlib import Path
 
 re_line = re.compile(r"(\d*)\.?\s([\.\w]+)\s(.*$)")
 
+
 def escape_tex_line(line: str):
     return line.replace("_", r"\_")
 
-def unpack_table_entry(line):
+
+def unpack_table_entry(line: str):
     "Unpacks a table line entry into the number, contributor name, and the entry value"
+    words = line.split()
+    num = words[0].replace(".", "").strip().lstrip("0")
+    contributor = escape_tex_line(words[1].strip())
+    content = escape_tex_line(
+        " ".join(words[2:]).strip().replace("[", r"\subtable{").replace("]", "}")
+    )
+    return num, contributor, content
+
+    # The regex approach is more brittle than the simple text processing version
+    """
     match = re_line.match(line)
     if match:
         # extract values
@@ -25,6 +37,7 @@ def unpack_table_entry(line):
         return num, contributor.strip(), content.strip()
     else:
         return None, None, line
+    """
 
 
 class IgnoreContributorsLineParser:
@@ -47,12 +60,13 @@ class IgnoreContributorsLineParser:
         table_name = line.strip()
         self._emit_table_header(output_file, table_name)
 
-    def parse_table_entry(self, output_file, row_number, line):
-        _, _, content = unpack_table_entry(line)
-        self._emit_table_row(output_file, content, row_number)
+    def parse_table_entry(self, output_file, line):
+        number, _, content = unpack_table_entry(line)
+        self._emit_table_row(output_file, content, number)
 
     def emit_main_file_footer(self, f):
         pass
+
 
 # Yes, I know have a bad smell from the duplicated code.
 # I could refactor into a better design, but I seriously don't care that much.
@@ -76,7 +90,7 @@ class ContributorsAsColumnLineParser:
         table_name = line.strip()
         self._emit_table_header(output_file, table_name)
 
-    def parse_table_entry(self, output_file, row_number, line):
+    def parse_table_entry(self, output_file, line):
         number, contributor, content = unpack_table_entry(line)
         self._emit_table_row(output_file, content, contributor, number)
 
@@ -120,12 +134,10 @@ class TableParser:
                         )
 
                         # render table rows from each of the remaining lines
-                        row_number = 1
                         for line in input_file:
                             self.line_parser.parse_table_entry(
-                                output_file, row_number, line
+                                output_file, line
                             )
-                            row_number += 1
 
                     self.line_parser.parse_table_footer(output_file)
 
