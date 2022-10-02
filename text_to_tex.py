@@ -102,14 +102,17 @@ class ContributorsAsColumnLineParser:
 class ContributorsAsAppendixLineParser:
     "Line parser that outputs contributors as an appendix"
 
-    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X l}}
-        \\textbf{{Roll}} & \\textbf{{Result}} & \\textbf{{Contributor}}\\\\\n"""
+    def __init__(self):
+        self.contributors = {}
+
+    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X}}
+        \\textbf{{Roll}} & \\textbf{{Result}}\\\\\n"""
 
     def _emit_table_header(self, f, name):
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
 
     def _emit_table_row(self, f, content: str, contributor: str, number: int = 1):
-        f.write(f"    {number} & {content} & {contributor}\\\\\n")
+        f.write(f"    {number} & {content}$^{contributor}$\\\\\n")
 
     def parse_table_footer(self, f):
         f.write("\\end{DndTable}")
@@ -120,15 +123,27 @@ class ContributorsAsAppendixLineParser:
 
     def parse_table_entry(self, output_file, line):
         number, contributor, content = unpack_table_entry(line)
+
+        # generate and store the unique footnote number for each contributor
+        if contributor not in self.contributors:
+            self.contributors[contributor] = len(self.contributors) + 1
+
+        contributor = self.contributors[contributor]
+
         self._emit_table_row(output_file, content, contributor, number)
 
     def emit_main_file_footer(self, f):
         f.write(
             """
 \\chapter*{Contributors}
-\\lipsum[1]
-            """
+\\begin{DndTable}[]{c X}
+"""
         )
+
+        for key, value in self.contributors.items():
+            f.write(f"{value} & {key} \\\\\n")
+
+        f.write("\\end{DndTable}")
 
 
 class TableParser:
