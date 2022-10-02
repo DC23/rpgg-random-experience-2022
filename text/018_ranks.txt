@@ -1,0 +1,5 @@
+Ranks
+01. ThroughTheDeckGlass  courtier
+02. ThroughTheDeckGlass  captain
+07. Steerpike.Instance   Uber Associate
+07. Steerpike.Instance   Underling

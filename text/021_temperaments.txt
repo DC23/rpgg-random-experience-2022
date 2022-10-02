@@ -1,0 +1,7 @@
+Temperaments
+01. sbszine              Good
+02. paulidale            Volatile
+03. paulidale            Stoic
+04. Steerpike.Instance   Tired
+05. Steerpike.Instance   Buzzing
+06. Dutys_Fist           Noble

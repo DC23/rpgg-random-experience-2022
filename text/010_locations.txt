@@ -1,0 +1,7 @@
+Locations
+01. sbszine              [planet]
+02. paulidale            the [swampy-adjective] swamp
+03. paulidale            a [distant] land
+07. Steerpike.Instance   St Pancras
+07. Steerpike.Instance   Madame DuPont's back room at [faction]'s speakeasy
+02. ThroughTheDeckGlass  pond

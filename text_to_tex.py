@@ -61,8 +61,9 @@ class IgnoreContributorsLineParser:
         table_name = line.strip()
         self._emit_table_header(output_file, table_name)
 
-    def parse_table_entry(self, output_file, line):
+    def parse_table_entry(self, output_file, line, row_num):
         number, _, content = unpack_table_entry(line)
+        number = row_num if row_num else number
         self._emit_table_row(output_file, content, number)
 
     def emit_main_file_footer(self, f):
@@ -91,8 +92,9 @@ class ContributorsAsColumnLineParser:
         table_name = line.strip()
         self._emit_table_header(output_file, table_name)
 
-    def parse_table_entry(self, output_file, line):
+    def parse_table_entry(self, output_file, line, row_num):
         number, contributor, content = unpack_table_entry(line)
+        number = row_num if row_num else number
         self._emit_table_row(output_file, content, contributor, number)
 
     def emit_main_file_footer(self, f):
@@ -121,8 +123,9 @@ class ContributorsAsAppendixLineParser:
         table_name = line.strip()
         self._emit_table_header(output_file, table_name)
 
-    def parse_table_entry(self, output_file, line):
+    def parse_table_entry(self, output_file, line, row_num):
         number, contributor, content = unpack_table_entry(line)
+        number = row_num if row_num else number
 
         # generate and store the unique footnote number for each contributor
         if contributor not in self.contributors:
@@ -179,7 +182,7 @@ class TableParser:
         self._output_directory = Path(output_directory)
         self.line_parser = line_parser
 
-    def parse(self):
+    def parse(self, ignore_numbers: bool = True):
         self._output_directory.mkdir(exist_ok=True)
 
         # setup the main tex include file
@@ -205,8 +208,10 @@ class TableParser:
                         )
 
                         # render table rows from each of the remaining lines
+                        row_num = 1
                         for line in input_file:
-                            self.line_parser.parse_table_entry(output_file, line)
+                            self.line_parser.parse_table_entry(output_file, line, row_num if ignore_numbers else None)
+                            row_num += 1
 
                     self.line_parser.parse_table_footer(output_file)
 
@@ -219,6 +224,7 @@ if __name__ == "__main__":
 
     # command line options
     arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("-i", "--ignore-numbers", action="store_true", help="Ignore the numbers in the text files")
     group = arg_parser.add_mutually_exclusive_group()
     group.add_argument(
         "-n", "--no-contrib", action="store_true", help="Omit contributors"
@@ -240,11 +246,11 @@ if __name__ == "__main__":
     if args.contrib_column:
         print("Generating tables with contributors in a table column")
         parser = TableParser(ContributorsAsColumnLineParser())
-    if args.contrib_appendix:
+    elif args.contrib_appendix:
         print("Generating tables with contributors in an appendix")
         parser = TableParser(ContributorsAsAppendixLineParser())
     else:
         print("Generating tables without contributor information")
         parser = TableParser(IgnoreContributorsLineParser())
 
-    parser.parse()
+    parser.parse(args.ignore_numbers)

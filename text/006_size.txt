@@ -1,0 +1,7 @@
+Sizes
+01. paulidale            Small
+02. Volfield             Brobdingnagian
+03. ThroughTheDeckGlass  Giant
+04. Dutys_Fist           [monster]-sized
+07. Steerpike.Instance   Cow
+07. Steerpike.Instance   most bodacious
