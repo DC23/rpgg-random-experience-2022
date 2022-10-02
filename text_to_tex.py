@@ -74,7 +74,8 @@ class TableParser:
 
         # iterate and parse all input table files
         with open(main_include_path, "w") as main_include:
-            for input_path in self._input_directory.glob("*.txt"):
+            for input_path in sorted(self._input_directory.glob("*.txt")):
+                print(f"* Processing {input_path}")
 
                 # create the table tex file path
                 output_tex = Path.joinpath(
