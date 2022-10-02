@@ -74,7 +74,7 @@ class IgnoreContributorsLineParser:
 class ContributorsAsColumnLineParser:
     "Line parser that outputs contributors as a third table column"
 
-    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X X}}
+    TABLE_HEADER = """\\begin{{DndTable}}[header={table_name}]{{c X l}}
         \\textbf{{Roll}} & \\textbf{{Result}} & \\textbf{{Contributor}}\\\\\n"""
 
     def _emit_table_header(self, f, name):
@@ -135,9 +135,7 @@ class TableParser:
 
                         # render table rows from each of the remaining lines
                         for line in input_file:
-                            self.line_parser.parse_table_entry(
-                                output_file, line
-                            )
+                            self.line_parser.parse_table_entry(output_file, line)
 
                     self.line_parser.parse_table_footer(output_file)
 
