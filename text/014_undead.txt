@@ -1,0 +1,5 @@
+Undead
+01. JugglinDan           zombie
+02. ThroughTheDeckGlass  ghost
+07. Steerpike.Instance   WereRabbit
+07. Steerpike.Instance   The last vampire

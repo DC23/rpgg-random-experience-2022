@@ -1,0 +1,6 @@
+swampy-adjective
+01. paulidale            gloomy
+02. Steerpike.Instance   malodorous
+03. Steerpike.Instance   heavy
+04. ThroughTheDeckGlass  three-danger
+05. ThroughTheDeckGlass  [monster]-infested

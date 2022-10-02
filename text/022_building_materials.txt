@@ -1,0 +1,4 @@
+Building Materials
+04. Dutys_Fist           Bricks
+07. Steerpike.Instance   Bones
+07. Steerpike.Instance   Discarded leather shoes

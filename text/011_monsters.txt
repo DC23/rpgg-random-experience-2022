@@ -1,0 +1,9 @@
+Monsters
+01. sbszine              [Size] Gelatinous cube
+02. ThroughTheDeckGlass  Rogue, sentient, [spacecraft]
+03. ThroughTheDeckGlass  clockwork robot inhabited by the consciousness of [person]
+04. JugglinDan           [undead]
+05. paulidale            [Goblinoid]
+06. paulidale            [Faekind]
+07. Steerpike.Instance   [size] [planets] devourer
+07. Steerpike.Instance   [star]ian [beast]

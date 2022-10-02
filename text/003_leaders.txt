@@ -6,4 +6,4 @@ Leaders
 05. paulidale            Reverend Sir Dr Jonathon Wilhelm Mohammad Greenman-Suzuki the third
 06. paulidale            The righteous queen of the realm
 07. Steerpike.Instance   Mighty Oath Healer of [planets]
-07. Steerpike.Instance   Green Egg Ham
+08. Steerpike.Instance   Green Egg Ham

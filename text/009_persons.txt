@@ -1,0 +1,10 @@
+Persons
+01. taen                 lover
+02. ThroughTheDeckGlass  [Leader]
+03. ThroughTheDeckGlass  member of [faction]
+04. paulidale            The crazy cat lady across the [street]
+05. paulidale            Genghis Khan
+06. JugglinDan           Jorge, the friendly town undertaker who looks like David Bowie
+07. Steerpike.Instance   an innocent bystander
+08. Dutys_Fist           [size] bad [monster] who's having some trouble blowing down a [building material] house
+07. Steerpike.Instance   Illegitmate child of [leader]

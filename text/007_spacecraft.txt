@@ -1,0 +1,8 @@
+Spacecraft
+01. paulidale            [Size] Shuttle
+02. Volfield             Tramp Freighter
+03. ThroughTheDeckGlass  self-sufficient carrier of air & space superiority fighters
+04. Dutys_Fist           A bunch of [building material] welded together that's somehow flyable
+05. Steerpike.Instance   Heart of Gold
+06. Steerpike.Instance   Mining Vessel
+07. ThroughTheDeckGlass  Cold sleep colony ship
