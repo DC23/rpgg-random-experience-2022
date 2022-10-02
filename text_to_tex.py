@@ -1,3 +1,4 @@
+import argparse
 import re
 from pathlib import Path
 
@@ -146,6 +147,25 @@ class TableParser:
 # support various output options
 if __name__ == "__main__":
 
-    # parser = TableParser(IgnoreContributorsLineParser())
-    parser = TableParser(ContributorsAsColumnLineParser())
+    # command line options
+    arg_parser = argparse.ArgumentParser()
+    group = arg_parser.add_mutually_exclusive_group()
+    group.add_argument(
+        "-n", "--no-contrib", action="store_true", help="Omit contributors"
+    )
+    group.add_argument(
+        "-c",
+        "--contrib-column",
+        action="store_true",
+        help="Contributors in table columns",
+    )
+    args = arg_parser.parse_args()
+
+    if args.contrib_column:
+        print("Generating tables with contributors in a table column")
+        parser = TableParser(ContributorsAsColumnLineParser())
+    else:
+        print("Generating tables without contributor information")
+        parser = TableParser(IgnoreContributorsLineParser())
+
     parser.parse()
