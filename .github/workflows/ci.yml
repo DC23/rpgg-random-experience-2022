@@ -25,5 +25,6 @@ jobs:
       run: |
         make TEXINPUTS=./lib//:
     - uses: stefanzweifel/git-auto-commit-action@v4
+      if: github.ref_name == 'main'
       with:
         commit_message: Automatic generation of PDF and previews
