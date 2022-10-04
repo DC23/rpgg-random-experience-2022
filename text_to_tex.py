@@ -9,14 +9,19 @@ def escape_tex_line(line: str):
     return line.replace("_", r"\_").replace("&", "\&")
 
 
-def unpack_table_entry(line: str):
+def unpack_table_entry(line: str, escape: bool = True):
     "Unpacks a table line entry into the number, contributor name, and the entry value"
     words = line.split()
     num = words[0].replace(".", "").strip().lstrip("0")
-    contributor = escape_tex_line(words[1].strip())
-    content = escape_tex_line(
-        " ".join(words[2:]).strip().replace("[", r"\subtable{").replace("]", "}")
-    )
+    if escape:
+        contributor = escape_tex_line(words[1].strip())
+        content = escape_tex_line(
+            " ".join(words[2:]).strip().replace("[", r"\subtable{").replace("]", "}")
+        )
+    else:
+        contributor = words[1].strip()
+        content = " ".join(words[2:]).strip()
+
     return num, contributor, content
 
     # The regex approach is more brittle than the simple text processing version
@@ -214,7 +219,12 @@ class TableParser:
         else:
             return sorted(the_files)
 
-    def parse(self, ignore_numbers: bool = True, sort_by_table_name: bool = False):
+    def parse(
+        self,
+        ignore_numbers: bool = True,
+        sort_by_table_name: bool = False,
+        sort_table_rows: bool = False,
+    ):
         self._output_directory.mkdir(exist_ok=True)
 
         # setup the main tex include file
@@ -241,7 +251,16 @@ class TableParser:
 
                         # render table rows from each of the remaining lines
                         row_num = 1
-                        for line in input_file:
+                        lines = input_file.readlines()
+
+                        # optionally sort the table rows
+                        if sort_table_rows:
+                            # unfortunately we have to unpack each line to sort by the entry
+                            lines = sorted(lines, key=lambda x: unpack_table_entry(x, False)[2])
+
+                        # parse the table rows
+                        for line in lines:
+                            print(line)
                             self.line_parser.parse_table_entry(
                                 output_file, line, row_num if ignore_numbers else None
                             )
@@ -269,6 +288,12 @@ if __name__ == "__main__":
         "--sort-by-table-name",
         action="store_true",
         help="Sort the tables alphabetically by table name instead of file name. All tables except 001 will be sorted.",
+    )
+    arg_parser.add_argument(
+        "-t",
+        "--sort-table-rows",
+        action="store_true",
+        help="Sort the table rows alphabetically instead of keeping the text file order",
     )
     group = arg_parser.add_mutually_exclusive_group()
     group.add_argument(
@@ -298,4 +323,4 @@ if __name__ == "__main__":
         print("Generating tables without contributor information")
         parser = TableParser(IgnoreContributorsLineParser())
 
-    parser.parse(args.ignore_numbers, args.sort_by_table_name)
+    parser.parse(args.ignore_numbers, args.sort_by_table_name, args.sort_table_rows)
