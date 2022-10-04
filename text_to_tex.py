@@ -189,7 +189,14 @@ class TableParser:
         self._output_directory = Path(output_directory)
         self.line_parser = line_parser
 
-    def parse(self, ignore_numbers: bool = True):
+    def _get_input_files(self, sort_by_table_name: bool):
+        the_files = list(self._input_directory.glob("*.txt"))
+        if sort_by_table_name:
+            pass
+        else:
+            return sorted(the_files)
+
+    def parse(self, ignore_numbers: bool = True, sort_by_table_name: bool = False):
         self._output_directory.mkdir(exist_ok=True)
 
         # setup the main tex include file
@@ -197,7 +204,7 @@ class TableParser:
 
         # iterate and parse all input table files
         with open(main_include_path, "w") as main_include:
-            for input_path in sorted(self._input_directory.glob("*.txt")):
+            for input_path in self._get_input_files(sort_by_table_name):
                 print(f"* Processing {input_path}")
 
                 # create the table tex file path
@@ -232,6 +239,7 @@ if __name__ == "__main__":
     # command line options
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument("-i", "--ignore-numbers", action="store_true", help="Ignore the numbers in the text files")
+    arg_parser.add_argument("-s", "--sort-by-table-name", action="store_true", help="Sort the tables alphabetically by table name instead of file name. All tables except 001 will be sorted.")
     group = arg_parser.add_mutually_exclusive_group()
     group.add_argument(
         "-n", "--no-contrib", action="store_true", help="Omit contributors"
@@ -260,4 +268,4 @@ if __name__ == "__main__":
         print("Generating tables without contributor information")
         parser = TableParser(IgnoreContributorsLineParser())
 
-    parser.parse(args.ignore_numbers)
+    parser.parse(args.ignore_numbers, args.sort_by_table_name)
