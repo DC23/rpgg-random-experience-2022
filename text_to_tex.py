@@ -9,14 +9,19 @@ def escape_tex_line(line: str):
     return line.replace("_", r"\_").replace("&", "\&")
 
 
-def unpack_table_entry(line: str):
+def unpack_table_entry(line: str, escape: bool = True):
     "Unpacks a table line entry into the number, contributor name, and the entry value"
     words = line.split()
     num = words[0].replace(".", "").strip().lstrip("0")
-    contributor = escape_tex_line(words[1].strip())
-    content = escape_tex_line(
-        " ".join(words[2:]).strip().replace("[", r"\subtable{").replace("]", "}")
-    )
+    if escape:
+        contributor = escape_tex_line(words[1].strip())
+        content = escape_tex_line(
+            " ".join(words[2:]).strip().replace("[", r"\subtable{").replace("]", "}")
+        )
+    else:
+        contributor = words[1].strip()
+        content = " ".join(words[2:]).strip()
+
     return num, contributor, content
 
     # The regex approach is more brittle than the simple text processing version
@@ -158,12 +163,12 @@ class ContributorsAsAppendixLineParser:
         f.write("\\chapter*{Contributors}\n")
 
         for contributor, n in self.contributors.items():
-        # for n in range(500):
-        #     contributor = str(n)
+            # for n in range(500):
+            #     contributor = str(n)
 
             # are we starting a new table?
             if row_count == 0:
-                f.write("\\begin{DndTable}[]{c X}\n""")
+                f.write("\\begin{DndTable}[]{c X}\n" "")
                 table_closed = False
 
             f.write(f"    {n} & {contributor} \\\\\n")
@@ -189,7 +194,37 @@ class TableParser:
         self._output_directory = Path(output_directory)
         self.line_parser = line_parser
 
-    def parse(self, ignore_numbers: bool = True):
+    def _get_input_files(self, sort_by_table_name: bool):
+        the_files = list(self._input_directory.glob("*.txt"))
+        if sort_by_table_name:
+            always_first = None
+            sorted_files = []
+            # iterate the files and read first line
+            for f in the_files:
+                # take the always-first file out.
+                if f.name[0:4] == "001_":
+                    always_first = f
+                else:
+                    with open(f, "r") as file:
+                        sorted_files.append((f, file.readline()))
+
+            # we now have a list of tuples (file name, first line of file)
+            # sort by first lines and use that sequence to order the file names
+            the_files = [x[0] for x in sorted(sorted_files, key=lambda x: x[1])]
+            if always_first:
+                the_files.insert(0, always_first)
+
+            return the_files
+
+        else:
+            return sorted(the_files)
+
+    def parse(
+        self,
+        ignore_numbers: bool = True,
+        sort_by_table_name: bool = False,
+        sort_table_rows: bool = False,
+    ):
         self._output_directory.mkdir(exist_ok=True)
 
         # setup the main tex include file
@@ -197,7 +232,7 @@ class TableParser:
 
         # iterate and parse all input table files
         with open(main_include_path, "w") as main_include:
-            for input_path in sorted(self._input_directory.glob("*.txt")):
+            for input_path in self._get_input_files(sort_by_table_name):
                 print(f"* Processing {input_path}")
 
                 # create the table tex file path
@@ -216,8 +251,19 @@ class TableParser:
 
                         # render table rows from each of the remaining lines
                         row_num = 1
-                        for line in input_file:
-                            self.line_parser.parse_table_entry(output_file, line, row_num if ignore_numbers else None)
+                        lines = input_file.readlines()
+
+                        # optionally sort the table rows
+                        if sort_table_rows:
+                            # unfortunately we have to unpack each line to sort by the entry
+                            lines = sorted(lines, key=lambda x: unpack_table_entry(x, False)[2])
+
+                        # parse the table rows
+                        for line in lines:
+                            print(line)
+                            self.line_parser.parse_table_entry(
+                                output_file, line, row_num if ignore_numbers else None
+                            )
                             row_num += 1
 
                     self.line_parser.parse_table_footer(output_file)
@@ -231,7 +277,24 @@ if __name__ == "__main__":
 
     # command line options
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument("-i", "--ignore-numbers", action="store_true", help="Ignore the numbers in the text files")
+    arg_parser.add_argument(
+        "-i",
+        "--ignore-numbers",
+        action="store_true",
+        help="Ignore the numbers in the text files",
+    )
+    arg_parser.add_argument(
+        "-s",
+        "--sort-by-table-name",
+        action="store_true",
+        help="Sort the tables alphabetically by table name instead of file name. All tables except 001 will be sorted.",
+    )
+    arg_parser.add_argument(
+        "-t",
+        "--sort-table-rows",
+        action="store_true",
+        help="Sort the table rows alphabetically instead of keeping the text file order",
+    )
     group = arg_parser.add_mutually_exclusive_group()
     group.add_argument(
         "-n", "--no-contrib", action="store_true", help="Omit contributors"
@@ -260,4 +323,4 @@ if __name__ == "__main__":
         print("Generating tables without contributor information")
         parser = TableParser(IgnoreContributorsLineParser())
 
-    parser.parse(args.ignore_numbers)
+    parser.parse(args.ignore_numbers, args.sort_by_table_name, args.sort_table_rows)
