@@ -257,7 +257,7 @@ class TableParser:
                         if sort_table_rows:
                             # unfortunately we have to unpack each line to sort by the entry
                             lines = sorted(
-                                lines, key=lambda x: unpack_table_entry(x, False)[2]
+                                lines, key=lambda x: unpack_table_entry(x.casefold(), False)[2]
                             )
 
                         # parse the table rows
