@@ -3,6 +3,25 @@ Spacecraft
 02. Volfield             Tramp Freighter
 03. ThroughTheDeckGlass  self-sufficient carrier of air & space superiority fighters
 04. Dutys_Fist           A bunch of [building material] welded together that's somehow flyable
-05. Steerpike.Instance   Heart of Gold
-06. Steerpike.Instance   Mining Vessel
-07. ThroughTheDeckGlass  Cold sleep colony ship
+07. Steerpike.Instance   Heart of Gold
+07. Steerpike.Instance   Mining Vessel
+02. ThroughTheDeckGlass  Cold sleep colony ship
+07. chadnorth            Scavenger
+07. chadnorth            Dreadnaught
+06. Dragontrainer        [Temperaments] Destroyer
+07. SeaofStars           System Customs Ship
+07. SeaofStars           Emergency Rescue Ship
+08. ctimmins             USS Enterprise
+09. pikkusiili2000       [color] squadron fighter
+09. pikkusiili2000       [rank] [person]'s personal transport
+10. jajsxa               Abandoned Explorer
+10. jajsxa               Astral [beast]
+14. robbbbbb             A phone booth
+14. robbbbbb             Mark XII Interplanetary Roamer, powered by Cermet NERVA
+08. ctimmins             Lysander Planet Miner
+17. Adularia25           Garbage Scow
+17. Adularia25           PX-11 Science Vessel
+18. Shardra              Hulking Wreck of Zombie [Goblinoids] and [Undead]
+18. Shardra              The Tartarus
+19. dragontrainer        Ice hauler
+01. Dutys_Fist           A giant flying [pet]
