@@ -120,7 +120,7 @@ class ContributorsAsAppendixLineParser:
 \\subsubsection{{{table_name}}}
 \\begin{{DndTable}}[]{{c X}}
 \\textbf{{Roll}} & \\textbf{{Result}}\\\\
-    """
+"""
 
     def _emit_table_header(self, f, name):
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
@@ -262,7 +262,7 @@ class TableParser:
 
                         # parse the table rows
                         for line in lines:
-                            print(line)
+                            # print(line)
                             self.line_parser.parse_table_entry(
                                 output_file, line, row_num if ignore_numbers else None
                             )
