@@ -3,7 +3,7 @@ Ranks
 02. ThroughTheDeckGlass  captain
 07. Steerpike.Instance   Uber Associate
 07. Steerpike.Instance   Underling
-01. paulidale            \textcyrillic{Капитан-лейтенант} (Captain-Lieutenant)
+01. paulidale            {\fontencoding{T2A}\selectfont \textcyrillic{Капитан-лейтенант}} (Captain-Lieutenant)
 01. paulidale            Fourth rate
 07. chadnorth            Thane
 07. chadnorth            Thrall
