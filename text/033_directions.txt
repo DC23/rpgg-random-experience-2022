@@ -1,0 +1,20 @@
+Directions
+07. SeaofStars           Over There
+05. JugglinDan           North
+05. JugglinDan           South
+10. jajsxa               Upward
+10. jajsxa               Closer to the [building materials] than before
+01. paulidale            Up
+01. paulidale            Go [Directions], then head [Directions] and finally [Directions].
+09. pikkusiili2000       thither
+09. pikkusiili2000       past the [structure] by the [location]
+08. ctimmins             Abaft
+08. ctimmins             West
+17. Adularia25           Spinward
+17. Adularia25           Sunward
+18. Shardra              Four streets ahead, take a left
+18. Shardra              Back to the last town you passed through
+03. ThroughTheDeckGlass  through wild and dangerous places
+03. ThroughTheDeckGlass  toward [location]
+19. dragontrainer        Behind
+19. dragontrainer        Under

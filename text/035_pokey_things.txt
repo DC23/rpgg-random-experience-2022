@@ -1,0 +1,22 @@
+Pokey Things
+05. paulidale            strand of spaghetti
+09. pikkusiili2000       fork
+03. taen                 cattle prod
+03. taen                 carrot
+10. jajsxa               [bodyparts]
+10. jajsxa               sharpened wooden [object]
+09. pikkusiili2000       [monster] talon
+08. ctimmins             Purcupine
+08. ctimmins             Hedgehog
+17. Adularia25           Dagger
+17. Adularia25           Trowel
+18. Shardra              Fingernails
+18. Shardra              Railroad Spike
+03. ThroughTheDeckGlass  Pocuswine quill
+03. ThroughTheDeckGlass  Stubborn fact
+19. dragontrainer        Beard
+19. dragontrainer        Sewing Needle
+07. SeaofStars           A Stick
+07. SeaofStars           Wand
+01. Dutys_Fist           [Building Materials] Sword
+01. Dutys_Fist           finger

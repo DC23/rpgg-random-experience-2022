@@ -1,0 +1,27 @@
+Animals
+05. paulidale            cats
+01. paulidale            Cows
+04. ThroughTheDeckGlass  [beast]
+04. ThroughTheDeckGlass  porcuswine
+03. taen                 alpacas
+03. taen                 pygmy goats
+10. jajsxa               epihippus
+10. jajsxa               muppet drummer
+10. sdonohue             Elk
+10. sdonohue             Musk Ox
+13. robbbbbb             Cow
+13. robbbbbb             Beetle
+13. Chadnorth            Border collie
+13. Chadnorth            Sheep Dog
+09. pikkusiili2000       domesticated milk [monsters]
+09. pikkusiili2000       [size] [color] [pet]
+08. ctimmins             Chicken
+08. ctimmins             Duck
+17. Adularia25           Extra-Wooly Sheep
+17. Adularia25           Engineered Mammoths
+18. Shardra              Aurochs
+18. Shardra              Barn Owl
+19. dragontrainer        Escaped zoo [Animal]
+19. dragontrainer        Sloth
+07. SeaofStars           Hound Dog
+07. SeaofStars           Llama

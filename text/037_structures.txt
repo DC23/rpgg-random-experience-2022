@@ -1,0 +1,23 @@
+Structures
+09. pikkusiili2000       Sewer
+09. pikkusiili2000       Crypt of [leader]
+01. Dutys_Fist           [faction]'s headquarters
+04. Dutys_Fist           A [swampy-adjective] [structure] beneath [location]
+10. jajsxa               bunker
+10. jajsxa               cave under [street]
+01. paulidale            [Size] gazebo
+01. paulidale            [Leaders]'s Ringworld
+13. robbbbbb             Pyramid
+13. robbbbbb             Skyscraper
+08. ctimmins             Barbican
+08. ctimmins             Space Dock
+13. ThroughTheDeckGlass  Wizard tower made of [building material] & force, guarded by [monster]
+13. ThroughTheDeckGlass  Maze
+17. Adularia25           Ziggurat of [temporal] [deity]
+17. Adularia25           Hidden Warehouse 187
+18. Shardra              Palace of Thought and Irony
+18. Shardra              Collapsed [material] house
+19. dragontrainer        Repair Shop
+19. dragontrainer        [Icky things} Tavern
+07. SeaofStars           Bridge
+07. SeaofStars           Aquaduct
