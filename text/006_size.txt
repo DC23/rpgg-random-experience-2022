@@ -2,6 +2,22 @@ Sizes
 01. paulidale            Small
 02. Volfield             Brobdingnagian
 03. ThroughTheDeckGlass  Giant
+03. ThroughTheDeckGlass  [size] [size]
 04. Dutys_Fist           [monster]-sized
 07. Steerpike.Instance   Cow
 07. Steerpike.Instance   most bodacious
+07. chadnorth            Subcompact
+07. chadnorth            Minuscule
+07. SeaofStars           Average
+07. SeaofStars           Massive
+08. ctimmins             Cawnie
+09. pikkusiili2000       Quantum
+09. pikkusiili2000       Epic
+10. jajsxa               [beasts] [bodyparts]-sized
+10. jajsxa               kind of [size] to average
+17. Adularia25           Petite
+17. Adularia25           Cyclopean
+18. Shardra              [Goblinoid] sized
+18. Shardra              [Monsters] sized
+19. dragontrainer        XXL
+19. dragontrainer        10-Gallon
