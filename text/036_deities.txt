@@ -12,7 +12,7 @@ Deities
 17. Adularia25           Sonalda, Keeper of the 9 Sacred Ways to Pacify Your [Relatives] During the Holidays and the 6 Sacred Ways to End [Conflicts] Without Dying
 17. Adularia25           Isssish, Beloved of [Planet], Holder of the [Good-adjective] [Pokey thing]
 18. Shardra              Captain of Kukudh
-18. Shardra              {\fontencoding{T2A}\selectfont \textgreek{Ἀλέξανδρος}}
+18. Shardra              {\fontencoding{LGR}\selectfont \foreignlanguage{greek}{Ἀλέξανδρος}}
 03. ThroughTheDeckGlass  The Wild, Protector of Faekind
 03. ThroughTheDeckGlass  The Scarred One, God of Goblins
 19. dragontrainer        Tony
