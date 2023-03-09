@@ -2,3 +2,14 @@ Goblinoid
 01. paulidale            goblin
 02. ThroughTheDeckGlass  [beast] rider
 03. Dutys_Fist           goblin [rank]
+07. SeaofStars           Hobgoblin Warrior
+07. SeaofStars           Goblin Wizard
+08. ctimmins             Nilbog
+10. jajsxa               hobgoblin
+10. jajsxa               half [goblinoid], half [goblinoid], covered in [icky thing]
+04. ThroughTheDeckGlass  [color] [goblinoid]
+08. ctimmins             [Temperament] [Undead] Chieftan seeking [Conflict]
+17. Adularia25           [Temperament] Boggart
+17. Adularia25           Pukwudgie
+18. Shardra              Divi
+18. Shardra              Hajnjeri
