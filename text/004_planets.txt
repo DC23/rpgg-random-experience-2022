@@ -4,5 +4,19 @@ Planets
 03. ThroughTheDeckGlass  At Last
 04. paulidale            Not Pluto
 05. paulidale            [Star] planet 4
-06. Steerpike.Instance   Galifour
+07. Steerpike.Instance   Galifour
 07. Steerpike.Instance   Third Rock of the [size] celestial orb
+07. SeaofStars           Paradyse
+07. SeaofStars           New Amerika
+08. ctimmins             Not Pluto II
+09. pikkusiili2000       ASO[####]
+09. pikkusiili2000       K'Cha'kri
+10. jajsxa               Uranus
+10. jajsxa               Satin, 4 Weft of Yarns
+15. ctimmins             Claire
+17. Adularia25           Im-Berhallia
+17. Adularia25           Proteoepsilon
+18. Shardra              [Star] IV
+18. Shardra              Õbod
+19. dragontrainer        Cyberpong
+19. dragontrainer        [Person]'s World
