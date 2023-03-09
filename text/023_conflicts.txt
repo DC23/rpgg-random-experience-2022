@@ -3,3 +3,21 @@ Conflicts
 02. Steerpike.Instance   Nuclear escalation
 03. Steerpike.Instance   Online trolling
 04. ThroughTheDeckGlass  duel between the elected champions [leader] & [leader]
+04. ThroughTheDeckGlass  [game] tournament
+05. paulidale            The [good-adjective] great war of attrition
+06. paulidale            [relative] spat
+06. Dragontrainer        [Dance]-off
+07. SeaofStars           Official and structured duel
+07. SeaofStars           Political Campaign
+08. ctimmins             Transtellar war
+09. pikkusiili2000       skirmish
+10. jajsxa               [beasts] thumb war
+10. jajsxa               uprising of the [ranks]s
+08. ctimmins             Civil War
+16. TheGoodGuy           staring contest
+09. pikkusiili2000       [street] gang hit
+17. Adularia25           Trade Embargo
+17. Adularia25           Ideological Crusade
+18. Shardra              Civil War
+18. Shardra              War Between the [Beasts] and [Monsters]
+01. Dutys_Fist           Speed-reading contest
