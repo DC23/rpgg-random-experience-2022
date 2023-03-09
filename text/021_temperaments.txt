@@ -1,7 +1,23 @@
 Temperaments
-01. sbszine              Good
+01. sbszine              [Good adjective]
 02. paulidale            Volatile
 03. paulidale            Stoic
 04. Steerpike.Instance   Tired
 05. Steerpike.Instance   Buzzing
 06. Dutys_Fist           Noble
+07. chadnorth            Belligerent
+07. chadnorth            Timid
+04. ThroughTheDeckGlass  quavering
+07. SeaofStars           Inflexible
+07. SeaofStars           Kind
+08. ctimmins             Drug-addled
+09. pikkusiili2000       Erratic
+09. pikkusiili2000       Valorous
+10. jajsxa               vivaciously [temperaments]
+10. jajsxa               [evil adjective]
+08. ctimmins             Furious
+13. ThroughTheDeckGlass  exasperated
+17. Adularia25           Calculatingly [evil-adjectives]
+17. Adularia25           Stressed about [Conflicts] or visiting [Leaders]
+18. Shardra              As bashful as a [monster]
+18. Shardra              As serious as a [rank]
