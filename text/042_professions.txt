@@ -1,0 +1,15 @@
+Professions
+14. robbbbbb             Engineering
+14. robbbbbb             Lawyering
+03. ThroughTheDeckGlass  Retail manager
+03. ThroughTheDeckGlass  Guard
+02. paulidale            Wheelwright
+02. paulidale            Cistern shoveller
+10. jajsxa               Children’s book illustrator
+10. jajsxa               [bodyparts] merchant
+19. dragontrainer        Translator
+19. dragontrainer        Guide
+07. SeaofStars           Doctor
+07. SeaofStars           Lawyer
+01. Dutys_Fist           [beast]-Tamer
+01. Dutys_Fist           Priest of [deity]

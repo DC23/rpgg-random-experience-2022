@@ -1,0 +1,21 @@
+Pets
+09. pikkusiili2000       friendly [beast]
+09. pikkusiili2000       [temperament] [size] [farm animal]
+10. jajsxa               friendly [undead] [monster]
+10. jajsxa               goldfish
+01. paulidale            [evil-adjectives] [(farm) animal]
+01. paulidale            hermit crab
+17. Adularia25           Taxidermied [beast]
+17. Adularia25           Robotic [beast]
+04. sbszine              Pet rock
+04. sbszine              [evil-adjective] parrot
+18. Shardra              Hedgehog
+18. Shardra              Pikachu
+03. ThroughTheDeckGlass  Slave-collared [person] (Reroll if this idea offends your table too much)
+03. ThroughTheDeckGlass  Very dumb [faekind or goblinoid]
+19. dragontrainer        [Structurs] rat
+19. dragontrainer        [good-adjective] skunk
+07. SeaofStars           [good-adjective] Dog
+07. SeaofStars           [evil-adjective] Cat
+01. Dutys_Fist           [animal]
+01. Dutys_Fist           [good-adjective] [undead]
