@@ -1,4 +1,5 @@
 SHELL=/bin/sh
+# TEX_COMPILER=xelatex
 TEX_COMPILER=pdflatex
 TEX_OPTIONS=--interaction=nonstopmode
 TEX=$(TEX_COMPILER) $(TEX_OPTIONS)
