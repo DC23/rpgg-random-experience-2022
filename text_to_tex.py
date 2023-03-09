@@ -160,7 +160,7 @@ class ContributorsAsAppendixLineParser:
         table_closed = False  # tracks whether the current table is open or closed
 
         # Start the contributors chapter
-        f.write("\\chapter*{Contributors}\n")
+        f.write("\\subsection{Contributors}\n")
 
         for contributor, n in self.contributors.items():
             # for n in range(500):
