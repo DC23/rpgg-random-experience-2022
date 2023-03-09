@@ -210,7 +210,7 @@ class TableParser:
 
             # we now have a list of tuples (file name, first line of file)
             # sort by first lines and use that sequence to order the file names
-            the_files = [x[0] for x in sorted(sorted_files, key=lambda x: x[1])]
+            the_files = [x[0] for x in sorted(sorted_files, key=lambda x: x[1].lower())]
             if always_first:
                 the_files.insert(0, always_first)
 
@@ -257,7 +257,7 @@ class TableParser:
                         if sort_table_rows:
                             # unfortunately we have to unpack each line to sort by the entry
                             lines = sorted(
-                                lines, key=lambda x: unpack_table_entry(x.casefold(), False)[2]
+                                lines, key=lambda x: unpack_table_entry(x, False)[2].casefold().replace("[", "")
                             )
 
                         # parse the table rows
