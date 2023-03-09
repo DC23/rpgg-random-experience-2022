@@ -2,3 +2,31 @@ Building Materials
 04. Dutys_Fist           Bricks
 07. Steerpike.Instance   Bones
 07. Steerpike.Instance   Discarded leather shoes
+03. paulidale            Pretzels
+03. paulidale            Rice paper
+07. chadnorth            Cedar
+07. chadnorth            Gold
+02. ThroughTheDeckGlass  windows
+02. ThroughTheDeckGlass  [monster] pieces
+07. SeaofStars           Still-living trees
+07. SeaofStars           Tabby
+05. JugglinDan           rock cakes
+05. JugglinDan           gingerbread
+08. ctimmins             Gypsum Board
+09. pikkusiili2000       [color] glass
+09. pikkusiili2000       rusted metal
+03. sbszine              Plasteel
+10. jajsxa               basmati rice cooked in [icky-stuffs]
+10. jajsxa               iron untouched by [temperaments] [faekind]
+13. robbbbbb             Laminated plywood
+13. robbbbbb             Carbon fiber composites
+13. Chadnorth            Cardboard and Duct Tape
+13. Chadnorth            Duplo blocks
+08. ctimmins             [color] Plastic
+17. Adularia25           Highly Polished Serpentine
+17. Adularia25           Rough Cut Basalt
+18. Shardra              Wattle-and-daub
+18. Shardra              Adobe
+19. dragontrainer        [book] pages
+19. dragontrainer        String
+01. Dutys_Fist           [beast] bones
