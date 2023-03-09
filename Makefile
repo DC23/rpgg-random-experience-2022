@@ -26,6 +26,10 @@ all:  a4 a4_print letter letter_print preview
 tex:
 	python text_to_tex.py $(TEXT_TO_TEX_OPTIONS)
 
+test: $(TEX_FILES)
+	$(TABLES_A4_CMD)
+	$(TABLES_A4_CMD)
+
 a4: tex $(TEX_FILES)
 	$(TABLES_A4_CMD)
 	$(TABLES_A4_CMD)
