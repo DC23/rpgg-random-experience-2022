@@ -5,3 +5,19 @@ Locations
 07. Steerpike.Instance   St Pancras
 07. Steerpike.Instance   Madame DuPont's back room at [faction]'s speakeasy
 02. ThroughTheDeckGlass  pond
+02. ThroughTheDeckGlass  [Monster]'s Lair
+07. SeaofStars           Space Port
+07. SeaofStars           Skyscraper
+08. ctimmins             Pancreas
+09. pikkusiili2000       [structure] beneath [street]
+09. pikkusiili2000       Vault of the [forbidden thing]
+10. jajsxa               the [bodyparts] of a [goblinoid]
+10. jajsxa               the ground between a pile of [icky-stuffs] and a pile of [building materials]
+17. Adularia25           Disgraced [Rank] Bar and [Monster] Grill
+17. Adularia25           The [Color] Arts District
+18. Shardra              Moon of [Planet]
+18. Shardra              Breached Fortress of Anoros
+19. dragontrainer        Cruise ship
+19. dragontrainer        [Person]'s Tavern
+04. Dutys_Fist           [Leader]'s [Size] [Planet] Base
+04. Dutys_Fist           A [swampy-adjective] [structure] beneath [location]
