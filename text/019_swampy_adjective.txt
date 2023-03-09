@@ -4,3 +4,17 @@ swampy-adjective
 03. Steerpike.Instance   heavy
 04. ThroughTheDeckGlass  three-danger
 05. ThroughTheDeckGlass  [monster]-infested
+07. SeaofStars           Dank
+07. SeaofStars           Stinky
+08. ctimmins             Noisome
+09. pikkusiili2000       dreary
+09. pikkusiili2000       [color] moss-filled
+10. jajsxa               surprisingly affable
+10. jajsxa               shrunken [bodyparts]-shaped
+08. ctimmins             expanse of decaying [flowers]
+17. Adularia25           Miasmic
+17. Adularia25           Squelchy
+18. Shardra              Dreary
+18. Shardra              Sinking
+01. Dutys_Fist           [icky thing]-scented
+01. Dutys_Fist           [body part]-filled
