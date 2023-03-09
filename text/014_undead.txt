@@ -3,3 +3,22 @@ Undead
 02. ThroughTheDeckGlass  ghost
 07. Steerpike.Instance   WereRabbit
 07. Steerpike.Instance   The last vampire
+01. paulidale            [evil-adjective] ghost
+01. paulidale            skeletal [beast]
+07. SeaofStars           Living Shadow
+07. SeaofStars           Head in a jar
+08. ctimmins             Fast, wet zombie
+09. pikkusiili2000       lich
+09. pikkusiili2000       ghoul
+03. taen                 capybara
+03. taen                 dung beetle
+10. jajsxa               shambling mass of [icky-stuffs] with a [monsters] [bodyparts], [monsters] [bodyparts], [monsters] [bodyparts], and [monsters] [bodyparts] randomly poking out from it
+10. jajsxa               [undead] of [ranks] [person], returned from the dead
+04. ThroughTheDeckGlass  corpse eater
+08. ctimmins             [Temperaments] [Goblinoid] Revenant seeking [Conflicts]
+17. Adularia25           Draugr
+17. Adularia25           Possessed [Building Material], inhabited by the spirit of [Relative]
+18. Shardra              Dhampir
+18. Shardra              Avullushe
+01. Dutys_Fist           zombie [beast]
+01. Dutys_Fist           [rank] skeletal [goblinoid]
