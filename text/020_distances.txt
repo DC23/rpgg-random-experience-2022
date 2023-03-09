@@ -2,3 +2,20 @@ Distances
 01. paulidale            faraway
 07. Steerpike.Instance   far far away
 07. Steerpike.Instance   2 meters
+07. chadnorth            Hairbreadth
+07. chadnorth            Cubit
+07. SeaofStars           Right behind you
+07. SeaofStars           1d6 Fathoms
+08. ctimmins             1d8 Arshins
+09. pikkusiili2000       yonder
+09. pikkusiili2000       the other side of [location]
+03. sbszine              Adjacent
+10. jajsxa               closer than they appear in this mirror
+10. jajsxa               further away than [leaders] is willing to travel
+08. ctimmins             Light Year
+17. Adularia25           1d6 Astronomical Units
+17. Adularia25           1d10 Hands
+18. Shardra              Parsec
+18. Shardra              Lightyear
+03. ThroughTheDeckGlass  down [street]
+03. ThroughTheDeckGlass  between thought and deed
