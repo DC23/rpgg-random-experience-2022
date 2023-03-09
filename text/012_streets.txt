@@ -3,3 +3,21 @@ Streets
 07. Steerpike.Instance   Dark Alley
 07. Steerpike.Instance   Sunlit Uplands
 02. ThroughTheDeckGlass  [location]
+07. chadnorth            Easy street
+07. chadnorth            42nd street
+06. Dragontrainer        Boulevard of broken [building materials]
+07. SeaofStars           Sesame Street
+07. SeaofStars           [direction] street
+08. ctimmins             Cobble Circle
+09. pikkusiili2000       road to [location]
+09. pikkusiili2000       [color] [building material] street
+10. jajsxa               [swampy-adjective] [forbidden things] Boulevarde
+10. jajsxa               [leaders]'s [color] Avenue
+08. ctimmins             Downing Street
+17. Adularia25           [Flower] Crescent
+17. Adularia25           [Leader] Way
+18. Shardra              Dr. [Undead] [Feakind] [Beasts] Boulevard
+18. Shardra              Main Street
+19. dragontrainer        [Undead] Crossing
+01. Dutys_Fist           [flower] Street
+01. Dutys_Fist           [Deity]'s Avenue
