@@ -18,6 +18,6 @@ Structures
 18. Shardra              Palace of Thought and Irony
 18. Shardra              Collapsed [material] house
 19. dragontrainer        Repair Shop
-19. dragontrainer        [Icky things} Tavern
+19. dragontrainer        [Icky things] Tavern
 07. SeaofStars           Bridge
 07. SeaofStars           Aquaduct
