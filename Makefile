@@ -48,7 +48,7 @@ letter_print: tex $(TEX_FILES)
 
 preview: ./RPGG_RANDOM_Design_Experience_2022_letter.pdf
 	pdftoppm -jpeg -rx 120 -ry 120 -f 1 -l 1 RPGG_RANDOM_Design_Experience_2022_letter.pdf preview
-	mv preview-1.jpg preview.jpg
+	mv preview-*.jpg preview.jpg
 
 .PHONY: clean
 clean:
