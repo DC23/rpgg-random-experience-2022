@@ -3,7 +3,7 @@ Ranks
 02. ThroughTheDeckGlass  captain
 07. Steerpike.Instance   Uber Associate
 07. Steerpike.Instance   Underling
-01. paulidale            Капитан-лейтенант (captain-lieutenant)
+01. paulidale            \textcyrillic{Капитан-лейтенант} (Captain-Lieutenant)
 01. paulidale            Fourth rate
 07. chadnorth            Thane
 07. chadnorth            Thrall
@@ -11,7 +11,7 @@ Ranks
 07. SeaofStars           Trainee
 07. SeaofStars           Squire
 08. ctimmins             Gunnery Sergeant
-09. pikkusiili2000       [#] star [superlative] general
+09. pikkusiili2000       [\#] star [superlative] general
 09. pikkusiili2000       Master
 10. jajsxa               Rear Admiral
 10. jajsxa               Personal Assistant to the [ranks]
