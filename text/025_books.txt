@@ -1,0 +1,27 @@
+Books
+01. paulidale            A tome
+10. sdonohue             A pamphlet
+10. sdonohue             A treatise
+04. ThroughTheDeckGlass  A quarto
+04. ThroughTheDeckGlass  A manifesto
+11. jajsxa               A scroll
+11. jajsxa               tablets of [building materials]
+12. Dutys_Fist           The Life and Times of [Leader], the [temperament], as chronicled by [person]
+12. Dutys_Fist           A Comprehensive Guide to the Differences between [Animals] and [Animals]
+13. taen                 Ruminations of 19 different [Animals]
+13. taen                 What your [Pet] actually thinks of you
+09. pikkusiili2000       quasi religious text of the [factions]
+09. pikkusiili2000       Writings of [leader] on [forbidden thing]
+04. sbszine              A slender volume
+04. sbszine              An ancient scroll
+08. ctimmins             A textbook
+08. ctimmins             An encyclopedia
+16. TheGoodGuy           Dungeons and Dragons [d6] edition
+17. Adularia25           What [Beast] Body Parts make the Best Sacrifices to [Deity]
+17. Adularia25           How To Siphon Energy from [Quarrels/Petty Things] into Pure Power using [Forbidden Things]
+18. Shardra              Cthäat Aquadingen
+18. Shardra              De Vermis Mysteriis
+19. dragontrainer        [Leader]'s Thesis
+19. dragontrainer        The [Animal] in the [Structure]
+07. SeaofStars           Almanac
+07. SeaofStars           E-Reader
