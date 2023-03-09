@@ -1,7 +1,5 @@
 # R-A-N-D-O-M Design Experience 2022
 
-## *Draft - Experience In Progress*
-
 The compiled list of random tables from the RPG Geek 2022 [R-A-N-D-O-M Design
 Experience](https://rpggeek.com/thread/2942480/2022-r-n-d-o-m-design-experience).
 
