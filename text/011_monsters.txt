@@ -7,3 +7,21 @@ Monsters
 06. paulidale            [Faekind]
 07. Steerpike.Instance   [size] [planets] devourer
 07. Steerpike.Instance   [star]ian [beast]
+07. SeaofStars           [Color] Dragon
+07. SeaofStars           Obviously Mechanical [Person] or [Monster]
+08. ctimmins             [Goblinoid] who thinks it's a [Goblinoid]
+08. ctimmins             [Faekind] who thinks it's a [beast]
+09. pikkusiili2000       [temperament] revenant of [leader]'s [pet]
+09. pikkusiili2000       [undead] [beast]
+03. taen                 hamster archer
+03. taen                 swarm of flat flies
+10. jajsxa               [size] amorphous glob of animated [icky-stuffs] covered with [bodyparts]
+10. jajsxa               [size] [undead] [goblinoid]
+17. Adularia25           [swampy-adjective] [Beast]
+17. Adularia25           [Temperaments] [Pets]
+18. Shardra              Moon of [Planet]
+18. Shardra              Breached Fortress of Anoros
+19. dragontrainer        Dust bunnies
+19. dragontrainer        [Building Materials] Golem
+01. Dutys_Fist           monstrous [animal]
+01. Dutys_Fist           [beast]
