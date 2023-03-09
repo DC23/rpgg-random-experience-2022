@@ -8,7 +8,8 @@ TEX_FILES=$(wildcard tex/*.tex) RPGG_RANDOM_Design_Experience_2022.tex
 # COLUMNS=one
 COLUMNS=two
 
-TEXT_TO_TEX_OPTIONS=--contrib-appendix --ignore-numbers --sort-by-table-name --sort-table-rows
+TEXT_TO_TEX_OPTIONS=--contrib-appendix --ignore-numbers
+# TEXT_TO_TEX_OPTIONS=--contrib-appendix --ignore-numbers --sort-by-table-name --sort-table-rows
 
 TABLES_A4_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4 "\documentclass[bg=full, 10pt, a4paper, twoside, $(COLUMNS)column, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
 TABLES_A4_PRINT_CMD=$(TEX) -jobname=RPGG_RANDOM_Design_Experience_2022_a4_print "\documentclass[bg=print, 10pt, a4paper, twoside, $(COLUMNS)column, openany, nodeprecatedcode]{dndbook} \input{RPGG_RANDOM_Design_Experience_2022}"
