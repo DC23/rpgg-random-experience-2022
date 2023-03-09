@@ -1,3 +1,21 @@
 Beasts
 01. ThroughTheDeckGlass  [size] spider
 02. ThroughTheDeckGlass  bestial [monster]
+01. paulidale            Herd of [size] attack [farm animals]
+01. paulidale            Ravenous Bugblatter Beast of Traal
+07. SeaofStars           Dog
+07. SeaofStars           Rabbit
+08. ctimmins             Cameleopard
+09. pikkusiili2000       [undead] dragon
+09. pikkusiili2000       mutant [pet]/[monster] hybrid
+10. jajsxa               kitten
+10. jajsxa               [size] [temperaments] [color] elephant with an extra [bodypart] and [bodypart]
+08. ctimmins             [Temperaments] [Building Materials] Golem
+17. Adularia25           Slorg-beast
+17. Adularia25           Spined pangolin
+18. Shardra              Baloz
+18. Shardra              Dhevështruesi
+19. dragontrainer        [Swampy Adjective] duck
+19. dragontrainer        [Good Adjective] Aardvark
+01. Dutys_Fist           [animal]
+01. Dutys_Fist           [goblinoid]
