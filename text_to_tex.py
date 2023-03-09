@@ -126,7 +126,7 @@ class ContributorsAsAppendixLineParser:
         f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
 
     def _emit_table_row(self, f, content: str, contributor: str, number: int = 1):
-        f.write(f"    {number} & {content}$^{contributor}$\\\\\n")
+        f.write(f"    {number} & {content}$^{{{contributor}}}$\\\\\n")
 
     def parse_table_footer(self, f):
         f.write("\\end{DndTable}")
