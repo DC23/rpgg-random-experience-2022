@@ -8,7 +8,7 @@ Spacecraft
 02. ThroughTheDeckGlass  Cold sleep colony ship
 07. chadnorth            Scavenger
 07. chadnorth            Dreadnaught
-06. Dragontrainer        [Temperaments] Destroyer
+06. dragontrainer        [Temperaments] Destroyer
 07. SeaofStars           System Customs Ship
 07. SeaofStars           Emergency Rescue Ship
 08. ctimmins             USS Enterprise
