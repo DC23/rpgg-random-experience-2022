@@ -1,7 +1,7 @@
 Beasts
 01. ThroughTheDeckGlass  [size] spider
 02. ThroughTheDeckGlass  bestial [monster]
-01. paulidale            Herd of [size] attack [farm animals]
+01. paulidale            Herd of [size] attack [animals]
 01. paulidale            Ravenous Bugblatter Beast of Traal
 07. SeaofStars           Dog
 07. SeaofStars           Rabbit
