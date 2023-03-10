@@ -1,4 +1,4 @@
-Swampy-adjective
+swampy-adjective
 01. paulidale            gloomy
 02. Steerpike.Instance   malodorous
 03. Steerpike.Instance   heavy
