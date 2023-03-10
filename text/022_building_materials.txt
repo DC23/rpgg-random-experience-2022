@@ -20,8 +20,8 @@ Building Materials
 10. jajsxa               iron untouched by [temperaments] [faekind]
 13. robbbbbb             Laminated plywood
 13. robbbbbb             Carbon fiber composites
-13. Chadnorth            Cardboard and Duct Tape
-13. Chadnorth            Duplo blocks
+13. chadnorth            Cardboard and Duct Tape
+13. chadnorth            Duplo blocks
 08. ctimmins             [color] Plastic
 17. Adularia25           Highly Polished Serpentine
 17. Adularia25           Rough Cut Basalt
