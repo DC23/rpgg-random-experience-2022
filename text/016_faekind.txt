@@ -1,7 +1,7 @@
 Faekind
 01. paulidale            Pixie
 02. ThroughTheDeckGlass  ancient elven [rank]
-06. Dragontrainer        Half-elf/Half-[goblinoid]
+06. dragontrainer        Half-elf/Half-[goblinoid]
 07. SeaofStars           Red Cap
 07. SeaofStars           Frost Maiden
 08. ctimmins             Arbitrary and capricious spirit
