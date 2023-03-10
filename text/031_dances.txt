@@ -1,6 +1,6 @@
 Dances
-06. Dragontrainer        Waltz
-06. Dragontrainer        Macarena
+06. dragontrainer        Waltz
+06. dragontrainer        Macarena
 04. ThroughTheDeckGlass  breakdance
 04. ThroughTheDeckGlass  Monster Mash
 10. jajsxa               Boot-scoot
@@ -9,8 +9,8 @@ Dances
 01. paulidale            Morris dance
 13. robbbbbb             Swing
 13. robbbbbb             Foxtrot
-13. Chadnorth            Ghillie Callum
-13. Chadnorth            Irish jig
+13. chadnorth            Ghillie Callum
+13. chadnorth            Irish jig
 09. pikkusiili2000       [monster] slide
 09. pikkusiili2000       [evil adjectives] romp
 08. ctimmins             Ballet (en pointe)
