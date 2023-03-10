@@ -6,7 +6,7 @@ Conflicts
 04. ThroughTheDeckGlass  [game] tournament
 05. paulidale            The [good-adjective] great war of attrition
 06. paulidale            [relative] spat
-06. Dragontrainer        [Dance]-off
+06. dragontrainer        [Dance]-off
 07. SeaofStars           Official and structured duel
 07. SeaofStars           Political Campaign
 08. ctimmins             Transtellar war
