@@ -11,8 +11,8 @@ Animals
 10. sdonohue             Musk Ox
 13. robbbbbb             Cow
 13. robbbbbb             Beetle
-13. Chadnorth            Border collie
-13. Chadnorth            Sheep Dog
+13. chadnorth            Border collie
+13. chadnorth            Sheep Dog
 09. pikkusiili2000       domesticated milk [monsters]
 09. pikkusiili2000       [size] [color] [pet]
 08. ctimmins             Chicken
