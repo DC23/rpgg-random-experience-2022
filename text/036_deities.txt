@@ -3,14 +3,14 @@ Deities
 09. pikkusiili2000       Bedliam the [temporal]
 10. jajsxa               Bob-Bob the [color], patron of those who cannot stay still, musicians, docked boats, and apples in water barrels
 10. jajsxa               Al-Fresco the [superlative], patron of strong fresh breezes, and those who eat quickly.
-01. paulidale            Mogron the [evil-adjectives]
-01. paulidale            Amelia the [good-adjectives]
+01. paulidale            Mogron the [evil adjectives]
+01. paulidale            Amelia the [good adjectives]
 13. robbbbbb             The other One True God
 13. robbbbbb             Coriander the [Temperaments]
 08. ctimmins             [Goblinoid] Demigod of [Occupational duty]
 08. ctimmins             [Conflicts] God of [Temporal] [Beasts]
 17. Adularia25           Sonalda, Keeper of the 9 Sacred Ways to Pacify Your [Relatives] During the Holidays and the 6 Sacred Ways to End [Conflicts] Without Dying
-17. Adularia25           Isssish, Beloved of [Planet], Holder of the [Good-adjective] [Pokey thing]
+17. Adularia25           Isssish, Beloved of [Planet], Holder of the [good adjective] [Pokey thing]
 18. Shardra              Captain of Kukudh
 18. Shardra              {\fontencoding{LGR}\selectfont \foreignlanguage{greek}{Ἀλέξανδρος}}
 03. ThroughTheDeckGlass  The Wild, Protector of Faekind

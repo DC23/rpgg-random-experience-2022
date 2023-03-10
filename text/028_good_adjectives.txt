@@ -16,5 +16,5 @@ Good Adjectives
 03. ThroughTheDeckGlass  compassionate
 07. SeaofStars           Pure
 07. SeaofStars           Honorable
-01. Dutys_Fist           [evil-adjective]
+01. Dutys_Fist           [evil adjective]
 01. Dutys_Fist           [flower]-scented

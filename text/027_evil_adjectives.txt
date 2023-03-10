@@ -12,9 +12,9 @@ Evil Adjectives
 18. Shardra              Murderous
 03. ThroughTheDeckGlass  foresworn
 03. ThroughTheDeckGlass  lying
-11. jajsxa               not at all [good-adjectives]
+11. jajsxa               not at all [good adjectives]
 11. jajsxa               [swamp-adjective]
 07. SeaofStars           Blood-thirsty
 07. SeaofStars           Foul
-01. Dutys_Fist           [good-adjective]
+01. Dutys_Fist           [good adjective]
 01. Dutys_Fist           [flower]-scented

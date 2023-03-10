@@ -3,7 +3,7 @@ Undead
 02. ThroughTheDeckGlass  ghost
 07. Steerpike.Instance   WereRabbit
 07. Steerpike.Instance   The last vampire
-01. paulidale            [evil-adjective] ghost
+01. paulidale            [evil adjective] ghost
 01. paulidale            skeletal [beast]
 07. SeaofStars           Living Shadow
 07. SeaofStars           Head in a jar

@@ -4,7 +4,7 @@ Leaders
 03. ThroughTheDeckGlass  Average Stan, known best for being forgettable
 04. Dutys_Fist           Sir Dreisal of Erestil, [temperament] knight of the realm
 05. paulidale            Reverend Sir Dr Jonathon Wilhelm Mohammad Greenman-Suzuki the third
-06. paulidale            The [good-adjective] queen of the realm
+06. paulidale            The [good adjective] queen of the realm
 07. Steerpike.Instance   Mighty Oath Healer of [planets]
 07. Steerpike.Instance   Green Egg Ham
 07. SeaofStars           [Color] [Star], charismatic cult leader
@@ -20,7 +20,7 @@ Leaders
 16. TheGoodGuy           HOA President
 17. Adularia25           Vrell, Slaughterer of [Animals], Devourer of [Beasts], [Rank] of [Planet]
 17. Adularia25           Charlene, Head of the Local Chapter for the Beautification of [Structures]
-18. Shardra              Alaric the [Evil-adjectives]
+18. Shardra              Alaric the [evil adjectives]
 18. Shardra              Leader of the [Monsters] from [Planets]
 19. dragontrainer        Dame Hortense III
 19. dragontrainer        Emperor Bob
