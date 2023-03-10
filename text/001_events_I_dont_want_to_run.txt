@@ -1,21 +1,21 @@
-Events that I don't want to go through all the trouble to run
-01. Dutys_Fist           The [temporal] [conflict] between [faction] and [faction] brought on by the assassination of [leader]
-02. paulidale            A sub-light voyage from [Planet] to [Star] in a [Spacecraft]
-03. paulidale            Herding [farm-animal]s using a [flexibility-adjective] [pokey-thing] through/along/down a [street]
-04. taen                 A petty argument between [person] and [person] over [petty thing] that results in [person] being hurt
-05. sbszine              The [temperament] people of [location] are menaced by a [monster]
+Events that I don't want to go through all the trouble to run.
+01. Dutys_Fist           The [temporal] [conflict] between [faction] and [faction] brought on by the assassination of [leader].
+02. paulidale            A sub-light voyage from [Planet] to [Star] in a [Spacecraft].
+03. paulidale            Herding [farm-animal]s using a [flexibility-adjective] [pokey-thing] through/along/down a [street].
+04. taen                 A petty argument between [person] and [person] over [petty thing] that results in [person] being hurt.
+05. sbszine              The [temperament] people of [location] are menaced by a [monster].
 06. JugglinDan           The [monster] apocalypse brought on by the [leader]'s quest for forbidden [forbidden things].
-07. Dragontrainer        The [occupational duty] of [beasts] created from the combination of [forbidden things] and [building materials] by [swampy-adjective] [persons] on [planets] [streets]
-08. SeaofStars           Invasion of [monsters] from [star]'s [planet] seeking [forbidden things]
-09. ctimmins             Another dungeon crawl through a gilded hole
-10. pikkusiili2000       A lost [color] [pet] mucking about in the [swampy-adjective] [structure] beneath [faction] [structure]
-11. pikkusiili2000       Discord in [faction] over the [petty thing] inflames [conflict] against the [size] [temperament] [person] who rules [location]
-12. jajsxa               The [temporal] acquisition of [faction] by [faction], facilitated by [persons], as a result of [petty things] at [locations] leading to the discovery by [leaders] of [building materials].
+07. dragontrainer        The [occupational duty] of [beasts] created from the combination of [forbidden things] and [building materials] by [swampy-adjective] [persons] on [planets] [streets].
+08. SeaofStars           Invasion of [monsters] from [star]'s [planet] seeking [forbidden things].
+09. ctimmins             Another dungeon crawl through a gilded hole.
+10. pikkusiili2000       A lost [color] [pet] mucking about in the [swampy-adjective] [structure] beneath [faction] [structure].
+11. pikkusiili2000       Discord in [faction] over the [petty thing] inflames [conflict] against the [size][temperament] [person] who rules [location].
+12. jajsxa               The [temporal] acquisition of [faction] by [faction], facilitated by [person], as a result of [petty thing] at [location] leading to the discovery by [leader] of [building materials].
 13. jajsxa               A game of [games] between [leaders], [persons], [relatives] [persons], and sentient [building materials].
 14. ThroughTheDeckGlass  A richly detailed feast between [person](s) and [monster](s) with conversation ranging from [petty thing] to [forbidden thing].
 15. robbbbbb             The [temporal] [conflicts] between the [faekind] and the [goblinoids] for control of the [building materials].
-16. QuaidSlauson        [Temporal] escape from [Building Material] [Structure] that the party didn't know was ruled by [Rank] [Beast].
-17. TheGoodGuy           A [temporal] [conflict] between [leader], [person], my [relative], and myself whether or not [book] should be "read as written" or "read as intended."
-18. Adularia25           A diplomatic meeting between [Faction] and [Leader] to stop a [Conflicts] over the import of [Forbidden Things] on [Planet], located at [Location]/[Structures] over (a) [Meal].
-19. Adularia25           Delivering [Meals] to [Leaders or Persons] incarcerated at [Locations or Structures] for crimes against [Planets or Factions] in an attempt to get more information about illegal [Beasts or (Farm) Animals] smuggling.
-20. ThroughTheDeckGlass  [Event that I don't want to go through all the trouble to run] resulting from [Event that I don't want to go through all the trouble to run]
+16. QuaidSlauson         [Temporal] escape from [Building Material] [Structure] that the party didn't know was ruled by a [rank] [beast].
+17. TheGoodGuy           A [temporal] [conflict] between [leader], [person], my [relative], and myself whether or not [book] should be "read as written" or "read as intended".
+18. Adularia25           A diplomatic meeting between [faction] and [leader] to stop a [conflict] over the import of [forbidden things] on [planet], located at [location]/[structures] over [Meal].
+19. Adularia25           Delivering [meals] to [leaders or persons] incarcerated at [locations or structures] for crimes against [planets or factions] in an attempt to get more information about illegal [beast or animal] smuggling.
+20. ThroughTheDeckGlass  [Event that I don't want to go through all the trouble to run] resulting from [event that I don't want to go through all the trouble to run].
