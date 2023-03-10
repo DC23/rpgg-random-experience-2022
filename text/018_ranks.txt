@@ -7,7 +7,7 @@ Ranks
 01. paulidale            Fourth rate
 07. chadnorth            Thane
 07. chadnorth            Thrall
-06. Dragontrainer        [Occupational duty] Intern
+06. dragontrainer        [Occupational duty] Intern
 07. SeaofStars           Trainee
 07. SeaofStars           Squire
 08. ctimmins             Gunnery Sergeant
