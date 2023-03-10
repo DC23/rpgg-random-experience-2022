@@ -1,6 +1,6 @@
 Occupational duties
-06. Dragontrainer        Alphabetization
-06. Dragontrainer        Necropsy
+06. dragontrainer        Alphabetization
+06. dragontrainer        Necropsy
 10. jajsxa               [monster] translation
 10. jajsxa               piloting
 01. paulidale            weighing
