@@ -1,9 +1,9 @@
 Pets
 09. pikkusiili2000       friendly [beast]
-09. pikkusiili2000       [temperament] [size] [farm animal]
+09. pikkusiili2000       [temperament] [size] [animal]
 10. jajsxa               friendly [undead] [monster]
 10. jajsxa               goldfish
-01. paulidale            [evil-adjectives] [(farm) animal]
+01. paulidale            [evil-adjective] [(farm) animal]
 01. paulidale            hermit crab
 17. Adularia25           Taxidermied [beast]
 17. Adularia25           Robotic [beast]
