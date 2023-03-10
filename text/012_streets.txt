@@ -5,7 +5,7 @@ Streets
 02. ThroughTheDeckGlass  [location]
 07. chadnorth            Easy street
 07. chadnorth            42nd street
-06. Dragontrainer        Boulevard of broken [building materials]
+06. dragontrainer        Boulevard of broken [building materials]
 07. SeaofStars           Sesame Street
 07. SeaofStars           [direction] street
 08. ctimmins             Cobble Circle
