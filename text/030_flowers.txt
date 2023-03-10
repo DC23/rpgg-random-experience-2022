@@ -1,6 +1,6 @@
 Flowers
-06. Dragontrainer        Roses
-06. Dragontrainer        Corpse [Flowers]
+06. dragontrainer        Roses
+06. dragontrainer        Corpse [Flowers]
 10. jajsxa               plastic pentunias that smell [swampy-adjective]
 10. jajsxa               bottlebrush
 01. paulidale            Camelias
