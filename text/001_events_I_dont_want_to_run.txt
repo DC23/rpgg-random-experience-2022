@@ -1,7 +1,7 @@
 Events that I don't want to go through all the trouble to run.
 01. Dutys_Fist           The [temporal] [conflict] between [faction] and [faction] brought on by the assassination of [leader].
 02. paulidale            A sub-light voyage from [Planet] to [Star] in a [Spacecraft].
-03. paulidale            Herding [farm-animal]s using a [flexibility-adjective] [pokey-thing] through/along/down a [street].
+03. paulidale            Herding [farm-animal]s using a [pokey-thing] through/along/down a [street].
 04. taen                 A petty argument between [person] and [person] over [petty thing] that results in [person] being hurt.
 05. sbszine              The [temperament] people of [location] are menaced by a [monster].
 06. JugglinDan           The [monster] apocalypse brought on by the [leader]'s quest for forbidden [forbidden things].
