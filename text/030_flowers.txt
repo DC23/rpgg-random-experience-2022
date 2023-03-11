@@ -6,7 +6,7 @@ Flowers
 01. paulidale            Camelias
 01. paulidale            Pansies
 09. pikkusiili2000       [color] lily
-09. pikkusiili2000       [superlative] [color] [temperament] bell
+09. pikkusiili2000       [good-adjective] [color] [temperament] bell
 08. ctimmins             Daffodil
 08. ctimmins             Dracunculus vulgaris
 13. ThroughTheDeckGlass  poppy
