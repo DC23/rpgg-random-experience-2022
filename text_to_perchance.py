@@ -22,7 +22,7 @@ class PerchanceLineParser:
 
     def _escape_title(self, s:str):
         # Yes, it does nothing yet
-        return s
+        return s.replace(' ', '_')
 
     def _escape_line(self, s:str):
         # Yes, it does nothing yet
