@@ -12,7 +12,7 @@ output
   Invasion of [monster] from [star]'s [planet] seeking [forbidden_thing].
   Another dungeon crawl through {a} gilded hole.
   A lost [color] [pet] mucking about in the [swamp_adjective] [structure] beneath [faction] [structure].
-  Discord in [faction] over the [quarrels_and_petty_things] inflames [conflict] against the [size][temperament] [person] who rules [location].
+  Discord in [faction] over the [quarrels_and_petty_things] inflames [conflict] against the [size] [temperament] [person] who rules [location].
   The [temporal] acquisition of [faction] by [faction], facilitated by [person], as a result of [quarrels_and_petty_things] at [location] leading to the discovery by [leader] of [building_material].
   A game of [game] between [leader], [person], [relative] [person], and sentient [building_material].
   A richly detailed feast between [person](s) and [monster](s) with conversation ranging from [quarrels_and_petty_things] to [forbidden_thing].
@@ -1001,4 +1001,3 @@ undead
   avullushe
   zombie [beast]
   [rank] skeletal [goblinoid]
-
