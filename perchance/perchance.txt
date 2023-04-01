@@ -4,18 +4,18 @@ title
 output
   The [temporal] [conflict] between [faction] and [faction] brought on by the assassination of [leader].
   A sub-light voyage from [planet] to [star] in {a} [spacecraft].
-  Herding [animal]s using {a} [pokey_thing] through/along/down {a} [street].
-  A petty argument between [person] and [person] over [petty-thing] that results in [person] being hurt.
+  Herding [animal]s using {a} [pokey_thing] {through|along|down} {a} [street].
+  A petty argument between [person] and [person] over [quarrels_and_petty_things] that results in [person] being hurt.
   The [temperament] people of [location] are menaced by {a} [monster].
   The [monster] apocalypse brought on by the [leader]'s quest for forbidden [forbidden_thing].
   The [occupational_duty] of [beast] created from the combination of [forbidden_thing] and [building_material] by [swamp_adjective] [person] on [planet] [street].
   Invasion of [monster] from [star]'s [planet] seeking [forbidden_thing].
   Another dungeon crawl through {a} gilded hole.
   A lost [color] [pet] mucking about in the [swamp_adjective] [structure] beneath [faction] [structure].
-  Discord in [faction] over the [petty-thing] inflames [conflict] against the [size][temperament] [person] who rules [location].
-  The [temporal] acquisition of [faction] by [faction], facilitated by [person], as a result of [petty-thing] at [location] leading to the discovery by [leader] of [building_material].
+  Discord in [faction] over the [quarrels_and_petty_things] inflames [conflict] against the [size][temperament] [person] who rules [location].
+  The [temporal] acquisition of [faction] by [faction], facilitated by [person], as a result of [quarrels_and_petty_things] at [location] leading to the discovery by [leader] of [building_material].
   A game of [game] between [leader], [person], [relative] [person], and sentient [building_material].
-  A richly detailed feast between [person](s) and [monster](s) with conversation ranging from [petty-thing] to [forbidden_thing].
+  A richly detailed feast between [person](s) and [monster](s) with conversation ranging from [quarrels_and_petty_things] to [forbidden_thing].
   The [temporal] [conflict] between the [faekind] and the [goblinoid] for control of the [building_material].
   [temporal] escape from [building_material] [structure] that the party didn't know was ruled by {a} [rank] [beast].
   {A} [temporal] [conflict] between [leader], [person], my [relative], and myself whether or not [book] should be "read as written" or "read as intended".
@@ -115,7 +115,7 @@ book
   an encyclopedia
   Dungeons and Dragons {1-6} edition
   What [beast] Body Parts make the Best Sacrifices to [deity]
-  How To Siphon Energy from [Quarrels/petty-thing] into Pure Power using [forbidden_thing]
+  How To Siphon Energy from [quarrels_and_petty_things] into Pure Power using [forbidden_thing]
   Cthäat Aquadingen
   De Vermis Mysteriis
   [leader]'s Thesis
@@ -336,7 +336,7 @@ faction
   The Ornery Ones
   Guild of Slaughtering Sloths
   Right Honorable Society for the Freedom of [monster]
-  The [street] Brigade, Dedicated to Rising [Quarrels/petty-thing] to a Fine Art Form
+  The [street] Brigade, Dedicated to Rising [quarrels_and_petty_things] to a Fine Art Form
   Neanderthals' Association
   Albanian Association for Animal Assimilation
   [planet] Senior Center Advocates
@@ -390,7 +390,7 @@ forbidden_thing
   breaking the 4th wall
   [book] of [evil_adjective] knowledge
   a different gender's toilet
-  knowledge of who revealed [petty-thing] in the presence of [person]
+  knowledge of who revealed [quarrels_and_petty_things] in the presence of [person]
   discarded toenail clippings
   a cuban cigar
   gossip
