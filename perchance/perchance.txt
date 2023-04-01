@@ -511,7 +511,7 @@ leader
 location
   [planet]
   the [swamp_adjective] swamp
-  {a} [distant] land
+  {a} [distance] land
   St Pancras
   Madame DuPont's back room at [faction]'s speakeasy
   pond
