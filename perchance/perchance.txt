@@ -24,12 +24,12 @@ output
   [output] resulting from [output].
 
 animal
-  cats
-  cows
+  cat
+  cow
   [beast]
   porcuswine
-  alpacas
-  pygmy goats
+  alpaca
+  pygmy goat
   epihippus
   muppet drummer
   elk
@@ -80,14 +80,14 @@ bodypart
   spleen
   pinky toe
   belly button
-  knuckles
+  knuckle
   pelvis
   uvula
   coccyx
   spleen
   kidney
   gas-bloated stomach
-  twitching cat tails
+  twitching cat tail
   rib
   wisdom tooth
   liver
@@ -574,19 +574,11 @@ monster
   [swamp_adjective] [beast]
   [temperament] [pet]
   moon of [planet]
-  breached fortress of anoros
+  breached fortress of Anoros
   dust bunnies
   [building_material] golem
   monstrous [animal]
   [beast]
-
-object
-  stake
-  pencil
-  fork
-  chopstick
-  walking stick
-  cane
 
 occupational_duty
   alphabetization
@@ -690,7 +682,7 @@ pokey_thing
   cattle prod
   carrot
   [bodypart]
-  sharpened wooden [object]
+  sharpened wooden [pokey_thing]
   [monster] talon
   purcupine
   hedgehog
@@ -767,7 +759,7 @@ rank
   personal Assistant to the [rank]
   Ünter-[rank]
   Private First Class
-  Level 5 Initiate
+  Level {1-5} Initiate
   Nëntoger
   Nënadmiral
   Secretary of State
