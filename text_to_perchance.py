@@ -17,22 +17,22 @@ class PerchanceLineParser:
     def __init__(self):
         pass
 
+    def _escape(self, s:str):
+        # Yes, it does nothing yet
+        return s
+
     def _emit_table_header(self, f, name):
-        pass
-        # f.write(self.TABLE_HEADER.format(table_name=escape_tex_line(name)))
+        f.write(f"{self._escape(name)}\n")
 
     def _emit_table_row(self, f, content: str, contributor: str, number: int = 1):
-        pass
-        # f.write(f"    {number} & {content}$^{{{contributor}}}$\\\\\n")
+        f.write(f"    {self._escape(content)}\n")
 
     def parse_table_footer(self, f):
-        pass
-        # f.write("\\end{DndTable}")
+        f.write("\n")
 
     def parse_first_line(self, output_file, line):
         table_name = line.strip()
-        pass
-        # self._emit_table_header(output_file, table_name)
+        self._emit_table_header(output_file, table_name)
 
     def parse_table_entry(self, output_file, line):
         number, contributor, content = unpack_table_entry(line)
@@ -80,16 +80,15 @@ class TableParser:
     def parse(self):
         self._output_directory.mkdir(exist_ok=True)
 
-        # iterate and parse all input table files
-        for input_path in self._get_input_files(True):
-            print(f"* Processing {input_path}")
+        # create the output file path
+        output_path = Path.joinpath(self._output_directory, "perchance.txt")
 
-            # create the output file path
-            output_path = Path.joinpath(
-                self._output_directory, Path(input_path.name).with_suffix(".tex")
-            )
+        with open(output_path, "w") as output_file:
 
-            with open(output_path, "w") as output_file:
+            # iterate and parse all input table files
+            for input_path in self._get_input_files(True):
+                print(f"* Processing {input_path}")
+
                 with open(input_path) as input_file:
                     self.line_parser.parse_first_line(
                         output_file, input_file.readline()

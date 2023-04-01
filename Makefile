@@ -58,5 +58,5 @@ preview: ./RPGG_RANDOM_Design_Experience_2022_letter.pdf
 .PHONY: clean
 clean:
 	echo Cleaning ...
-	rm -rf *.gz *.aux *.log *.out *.bbl *.blg *.bak *.bcf *.xml *.toc tex/
+	rm -rf *.gz *.aux *.log *.out *.bbl *.blg *.bak *.bcf *.xml *.toc tex/ perchance/
 	echo ... done
