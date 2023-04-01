@@ -96,23 +96,23 @@ bodypart
   chest
 
 book
-  A tome
-  A pamphlet
-  A treatise
-  A quarto
-  A manifesto
-  A scroll
+  a tome
+  a pamphlet
+  a treatise
+  a quarto
+  a manifesto
+  a scroll
   tablets of [building_material]
   The Life and Times of [leader], the [temperament], as chronicled by [person]
   A Comprehensive Guide to the Differences between [animal] and [animal]
   Ruminations of 19 different [animal]
   What your [Pet] actually thinks of you
   quasi religious text of the [faction]
-  Writings of [leader] on [forbidden_thing]
-  A slender volume
-  An ancient scroll
-  A textbook
-  An encyclopedia
+  writings of [leader] on [forbidden_thing]
+  a slender volume
+  an ancient scroll
+  a textbook
+  an encyclopedia
   Dungeons and Dragons {1-6} edition
   What [beast] Body Parts make the Best Sacrifices to [deity]
   How To Siphon Energy from [Quarrels/petty-thing] into Pure Power using [forbidden_thing]
@@ -120,8 +120,8 @@ book
   De Vermis Mysteriis
   [leader]'s Thesis
   The [animal] in the [structure]
-  Almanac
-  E-Reader
+  almanac
+  e-reader
 
 building_material
   bricks
