@@ -103,7 +103,7 @@ Books
   A manifesto
   A scroll
   tablets of [building-material]
-  The Life and Times of [Leader], the [temperament], as chronicled by [person]
+  The Life and Times of [leader], the [temperament], as chronicled by [person]
   A Comprehensive Guide to the Differences between [animal] and [animal]
   Ruminations of 19 different [animal]
   What your [Pet] actually thinks of you
@@ -118,7 +118,7 @@ Books
   How To Siphon Energy from [Quarrels/petty-thing] into Pure Power using [forbidden-thing]
   Cthäat Aquadingen
   De Vermis Mysteriis
-  [Leader]'s Thesis
+  [leader]'s Thesis
   The [Animal] in the [structure]
   Almanac
   E-Reader
@@ -491,7 +491,7 @@ leader
   Mighty Oath Healer of [planet]
   Green Egg Ham
   [Color] [star], charismatic cult leader
-  [Size] Sword, top executioner
+  [size] Sword, top executioner
   A time-traveling android that's unaware it's not the real Napoleon Bonaparte
   Gorblid the [temperament]
   Keeper of the [color] [pet]
@@ -504,7 +504,7 @@ leader
   Vrell, Slaughterer of [animal], Devourer of [beast], [Rank] of [planet]
   Charlene, Head of the Local Chapter for the Beautification of [Structures]
   Alaric the [evil adjectives]
-  Leader of the [monster] from [planet]
+  leader of the [monster] from [planet]
   Dame Hortense III
   Emperor Bob
 
@@ -528,8 +528,8 @@ location
   Moon of [planet]
   Breached Fortress of Anoros
   Cruise ship
-  [Person]'s Tavern
-  [Leader]'s [Size] [planet] Base
+  [person]'s Tavern
+  [leader]'s [size] [planet] Base
   A [swampy-adjective] [structure] beneath [location]
 
 meal
@@ -553,7 +553,7 @@ meal
   [animal] soup
 
 monster
-  [Size] Gelatinous cube
+  [size] Gelatinous cube
   Rogue, sentient, [spacecraft]
   clockwork robot inhabited by the consciousness of [person]
   [undead]
@@ -562,7 +562,7 @@ monster
   [size] [planet] devourer
   [star]ian [beast]
   [Color] Dragon
-  Obviously Mechanical [Person] or [Monster]
+  Obviously Mechanical [person] or [Monster]
   [Goblinoid] who thinks it's a [Goblinoid]
   [Faekind] who thinks it's a [beast]
   [temperament] revenant of [leader]'s [pet]
@@ -604,7 +604,7 @@ Occupational_duties
 
 person
   lover
-  [Leader]
+  [leader]
   member of [faction]
   The crazy cat lady across the [street]
   Genghis Khan
@@ -615,7 +615,7 @@ person
   Ex-spouse
   Sir Cumference
   [Faekind] cosplayer
-  Police Person
+  Police person
   Secret Agent
   Ögödei
   frenemy
@@ -664,7 +664,7 @@ planet
   Paradyse
   New Amerika
   Not Pluto II
-  ASO[\#\#\#\#]
+  ASO {1-1000}
   K'Cha'kri
   Uranus
   Satin, 4 Weft of Yarns
@@ -674,7 +674,7 @@ planet
   [star] IV
   Õbod
   Cyberpong
-  [Person]'s World
+  [person]'s World
 
 Pokey_Things
   strand of spaghetti
@@ -699,7 +699,7 @@ Pokey_Things
   [building-material] Sword
   finger
 
-Professions
+profession
   Engineering
   Lawyering
   Retail manager
@@ -725,10 +725,10 @@ Quarrels_and_Petty_Things
   toilet seats being left up
   Lunch money
   Pogs
-  Bringing up the time [Leader]'s [conflict] killed your [Flowers]
+  Bringing up the time [leader]'s [conflict] killed your [Flowers]
   Using internet slang in face to face conversation
   whose turn it is to scoop [pet] waste
-  disagreements about [leader']'s role in the formation of [faction] on [planet]
+  disagreements about [leader]'s role in the formation of [faction] on [planet]
   Whether LEGO® is a mass noun
   Being late for dinner
   Pointing out [person]'s bad habits
@@ -740,12 +740,12 @@ Quarrels_and_Petty_Things
   Telling [flowers] and [flowers] apart
   The nutritious value of [meal]
 
-Ranks
+rank
   courtier
   captain
   Uber Associate
   Underling
-  {\fontencoding{T2A}\selectfont \textcyrillic{Капитан-лейтенант}} (Captain-Lieutenant)
+  Капитан-лейтенант (Captain-Lieutenant)
   Fourth rate
   Thane
   Thrall
@@ -753,11 +753,11 @@ Ranks
   Trainee
   Squire
   Gunnery Sergeant
-  [\#] star [good-adjective] general
+  {1-5} star [good-adjective] general
   Master
   Rear Admiral
-  Personal Assistant to the [ranks]
-  Ünter-[Ranks]
+  personal Assistant to the [rank]
+  Ünter-[rank]
   Private First Class
   Level 5 Initiate
   Nëntoger
@@ -768,7 +768,7 @@ Relatives
   Sibling
   Step-[Relative]
   Cousin
-  [\#] cousin
+  {first|second|third|fourth|fifth} cousin
   [good-adjective] [good-adjective] father
   Great Aunt
   Second Cousin, Once Removed
@@ -786,7 +786,7 @@ Relatives
   Adopted Sibling
   Cool Aunt
 
-Sizes
+size
   Small
   Brobdingnagian
   Giant
@@ -811,7 +811,7 @@ Sizes
   10-Gallon
 
 spacecraft
-  [Size] Shuttle
+  [size] Shuttle
   Tramp Freighter
   self-sufficient carrier of air & space superiority fighters
   A bunch of [building-material] welded together that's somehow flyable
@@ -860,7 +860,7 @@ star
   Binary [star]
   Azathoth
   Prenova
-  [Leader]'s Gift
+  [leader]'s Gift
 
 street
   Lane
@@ -879,7 +879,7 @@ street
   [leader]'s [color] Avenue
   Downing Street
   [Flower] Crescent
-  [Leader] Way
+  [leader] Way
   Dr. [Undead] [Feakind] [beast] Boulevard
   Main Street
   [Undead] Crossing
@@ -893,7 +893,7 @@ Structures
   A [swampy-adjective] [structure] beneath [location]
   bunker
   cave under [street]
-  [Size] gazebo
+  [size] gazebo
   [leader]'s Ringworld
   Pyramid
   Skyscraper
@@ -992,7 +992,7 @@ Undead
   capybara
   dung beetle
   shambling mass of [icky-stuffs] with a [monster] [bodypart], [monster] [bodypart], [monster] [bodypart], and [monster] [bodypart] randomly poking out from it
-  [undead] of [ranks] [person], returned from the dead
+  [undead] of [rank] [person], returned from the dead
   corpse eater
   [temperament] [Goblinoid] Revenant seeking [conflict]
   Draugr
