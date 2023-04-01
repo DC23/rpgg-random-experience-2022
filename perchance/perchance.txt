@@ -14,7 +14,7 @@ output
   A lost [color] [pet] mucking about in the [swamp_adjective] [structure] beneath [faction] [structure].
   Discord in [faction] over the [petty-thing] inflames [conflict] against the [size][temperament] [person] who rules [location].
   The [temporal] acquisition of [faction] by [faction], facilitated by [person], as a result of [petty-thing] at [location] leading to the discovery by [leader] of [building_material].
-  A game of [game] between [leader], [person], [relatives] [person], and sentient [building_material].
+  A game of [game] between [leader], [person], [relative] [person], and sentient [building_material].
   A richly detailed feast between [person](s) and [monster](s) with conversation ranging from [petty-thing] to [forbidden_thing].
   The [temporal] [conflict] between the [faekind] and the [goblinoid] for control of the [building_material].
   [temporal] escape from [building_material] [structure] that the party didn't know was ruled by {a} [rank] [beast].
@@ -141,7 +141,7 @@ building_material
   [color] glass
   rusted metal
   plasteel
-  basmati rice cooked in [icky-stuffs]
+  basmati rice cooked in [icky_thing]
   iron untouched by [temperament] [faekind]
   laminated plywood
   carbon fiber composites
@@ -239,7 +239,7 @@ deity
   Coriander the [temperament]
   [goblinoid] Demigod of [occupational_duty]
   [conflict] God of [Temporal] [beast]
-  Sonalda, Keeper of the 9 Sacred Ways to Pacify Your [Relatives] During the Holidays and the 6 Sacred Ways to End [conflict] Without Dying
+  Sonalda, Keeper of the 9 Sacred Ways to Pacify Your [relative] During the Holidays and the 6 Sacred Ways to End [conflict] Without Dying
   Isssish, Beloved of [planet], Holder of the [good_adjective] [pokey_thing]
   Captain of Kukudh
   Ἀλέξανδρος
@@ -476,7 +476,7 @@ icky_thing
   corpse
   knackerman's floor
   unclean [goblinoid]
-  [relatives]'s porridge
+  [relative]'s porridge
   used bandage
   [swamp_adjective] [icky_thing]
   decomposing [beast] [bodypart]
@@ -522,7 +522,7 @@ location
   [structure] beneath [street]
   Vault of the [forbidden_thing]
   the [bodypart] of {a} [goblinoid]
-  the ground between a pile of [icky-stuffs] and a pile of [building_material]
+  the ground between a pile of [icky_thing] and a pile of [building_material]
   Disgraced [rank] Bar and [monster] Grill
   The [color] Arts District
   Moon of [planet]
@@ -569,7 +569,7 @@ monster
   [undead] [beast]
   hamster archer
   swarm of flat flies
-  [size] amorphous glob of animated [icky-stuffs] covered with [bodypart]
+  [size] amorphous glob of animated [icky_thing] covered with [bodypart]
   [size] [undead] [goblinoid]
   [swamp_adjective] [beast]
   [temperament] [pet]
@@ -991,7 +991,7 @@ undead
   ghoul
   capybara
   dung beetle
-  shambling mass of [icky-stuffs] with {a} [monster] [bodypart], [monster] [bodypart], [monster] [bodypart], and [monster] [bodypart] randomly poking out from it
+  shambling mass of [icky_thing] with {a} [monster] [bodypart], [monster] [bodypart], [monster] [bodypart], and [monster] [bodypart] randomly poking out from it
   [undead] of [rank] [person], returned from the dead
   corpse eater
   [temperament] [goblinoid] revenant seeking [conflict]
