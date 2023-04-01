@@ -27,6 +27,10 @@ all:  a4 a4_print letter letter_print preview
 tex:
 	python text_to_tex.py $(TEXT_TO_TEX_OPTIONS)
 
+.PHONY: perchance
+perchance:
+	python text_to_perchance.py
+
 test: $(TEX_FILES)
 	$(TABLES_A4_CMD)
 	$(TABLES_A4_CMD)
