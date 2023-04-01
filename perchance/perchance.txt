@@ -95,7 +95,7 @@ bodypart
   [swamp_adjective] [color] bone
   chest
 
-books
+book
   A tome
   A pamphlet
   A treatise
