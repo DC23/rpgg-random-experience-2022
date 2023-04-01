@@ -14,25 +14,36 @@ def unpack_table_entry(line: str):
 class PerchanceLineParser:
     "Line parser that outputs tables in Perchance format"
 
+    FIRST_FILE_TABLE_HEADER = f"title\n  {{name}}\n\noutput\n"
+    TABLE_HEADER = f"{{name}}\n"
+
     def __init__(self):
         pass
 
-    def _escape(self, s:str):
+    def _escape_title(self, s:str):
         # Yes, it does nothing yet
         return s
 
-    def _emit_table_header(self, f, name):
-        f.write(f"{self._escape(name)}\n")
+    def _escape_line(self, s:str):
+        # Yes, it does nothing yet
+        return s
+
+    def _emit_table_header(self, f, name, first_table:bool=False):
+        name = self._escape_title(name)
+        if first_table:
+            f.write(self.FIRST_FILE_TABLE_HEADER.format(name=name))
+        else:
+            f.write(self.TABLE_HEADER.format(name=name))
 
     def _emit_table_row(self, f, content: str, contributor: str, number: int = 1):
-        f.write(f"    {self._escape(content)}\n")
+        f.write(f"  {self._escape_line(content)}\n")
 
     def parse_table_footer(self, f):
         f.write("\n")
 
-    def parse_first_line(self, output_file, line):
+    def parse_first_line(self, output_file, line, first_file:bool=False):
         table_name = line.strip()
-        self._emit_table_header(output_file, table_name)
+        self._emit_table_header(output_file, table_name, first_table=first_file)
 
     def parse_table_entry(self, output_file, line):
         number, contributor, content = unpack_table_entry(line)
@@ -85,13 +96,16 @@ class TableParser:
 
         with open(output_path, "w") as output_file:
 
+            # The first file needs special handling
+            first = True
+
             # iterate and parse all input table files
             for input_path in self._get_input_files(True):
                 print(f"* Processing {input_path}")
 
                 with open(input_path) as input_file:
                     self.line_parser.parse_first_line(
-                        output_file, input_file.readline()
+                        output_file, input_file.readline(), first_file=first
                     )
 
                     # render table rows from each of the remaining lines
@@ -103,6 +117,8 @@ class TableParser:
                         self.line_parser.parse_table_entry(output_file, line)
 
                 self.line_parser.parse_table_footer(output_file)
+
+                first = False
 
 
 if __name__ == "__main__":
