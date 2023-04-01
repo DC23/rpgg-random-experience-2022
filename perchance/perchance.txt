@@ -3,97 +3,97 @@ title
 
 output
   The [temporal] [conflict] between [faction] and [faction] brought on by the assassination of [leader].
-  A sub-light voyage from [planet] to [star] in a [spacecraft].
-  Herding [farm_animal]s using a [pokey-thing] through/along/down a [street].
+  A sub-light voyage from [planet] to [star] in {a} [spacecraft].
+  Herding [animal]s using {a} [pokey_thing] through/along/down {a} [street].
   A petty argument between [person] and [person] over [petty-thing] that results in [person] being hurt.
-  The [temperament] people of [location] are menaced by a [monster].
+  The [temperament] people of [location] are menaced by {a} [monster].
   The [monster] apocalypse brought on by the [leader]'s quest for forbidden [forbidden_thing].
   The [occupational_duty] of [beast] created from the combination of [forbidden_thing] and [building_material] by [swamp_adjective] [person] on [planet] [street].
   Invasion of [monster] from [star]'s [planet] seeking [forbidden_thing].
-  Another dungeon crawl through a gilded hole.
+  Another dungeon crawl through {a} gilded hole.
   A lost [color] [pet] mucking about in the [swamp_adjective] [structure] beneath [faction] [structure].
   Discord in [faction] over the [petty-thing] inflames [conflict] against the [size][temperament] [person] who rules [location].
   The [temporal] acquisition of [faction] by [faction], facilitated by [person], as a result of [petty-thing] at [location] leading to the discovery by [leader] of [building_material].
-  A game of [games] between [leader], [person], [relatives] [person], and sentient [building_material].
+  A game of [game] between [leader], [person], [relatives] [person], and sentient [building_material].
   A richly detailed feast between [person](s) and [monster](s) with conversation ranging from [petty-thing] to [forbidden_thing].
   The [temporal] [conflict] between the [faekind] and the [goblinoid] for control of the [building_material].
-  [temporal] escape from [building_material] [structure] that the party didn't know was ruled by a [rank] [beast].
-  A [temporal] [conflict] between [leader], [person], my [relative], and myself whether or not [book] should be "read as written" or "read as intended".
-  A diplomatic meeting between [faction] and [leader] to stop a [conflict] over the import of [forbidden_thing] on [planet], located at {location|structure} over [meal].
-  Delivering [meal] to {leader|person} incarcerated at {location|structure} for crimes against {planet|faction} in an attempt to get more information about illegal {beast|animal} smuggling.
+  [temporal] escape from [building_material] [structure] that the party didn't know was ruled by {a} [rank] [beast].
+  {A} [temporal] [conflict] between [leader], [person], my [relative], and myself whether or not [book] should be "read as written" or "read as intended".
+  A diplomatic meeting between [faction] and [leader] to stop {a} [conflict] over the import of [forbidden_thing] on [planet], located at {[location]|[structure]} over [meal].
+  Delivering [meal] to {[leader]|[person]} incarcerated at {[location]|[structure]} for crimes against {[planet]|[faction]} in an attempt to get more information about illegal {[beast]|[animal]} smuggling.
   [output] resulting from [output].
 
 animal
   cats
-  Cows
+  cows
   [beast]
   porcuswine
   alpacas
   pygmy goats
   epihippus
   muppet drummer
-  Elk
-  Musk Ox
-  Cow
-  Beetle
-  Border collie
-  Sheep Dog
+  elk
+  musk ox
+  cow
+  beetle
+  border collie
+  sheep dog
   domesticated milk [monster]
   [size] [color] [pet]
-  Chicken
-  Duck
-  Extra-Wooly Sheep
-  Engineered Mammoths
-  Aurochs
-  Barn Owl
-  Escaped zoo [Animal]
-  Sloth
-  Hound Dog
-  Llama
+  chicken
+  duck
+  extra-wooly sheep
+  engineered mammoths
+  aurochs
+  barn owl
+  escaped zoo [animal]
+  sloth
+  hound dog
+  llama
 
 beast
   [size] spider
   bestial [monster]
-  Herd of [size] attack [animal]
+  herd of [size] attack [animal]
   Ravenous Bugblatter Beast of Traal
-  Dog
-  Rabbit
-  Cameleopard
+  dog
+  rabbit
+  cameleopard
   [undead] dragon
   mutant [pet]/[monster] hybrid
   kitten
   [size] [temperament] [color] elephant with an extra [bodypart] and [bodypart]
-  [temperament] [building_material] Golem
-  Slorg-beast
-  Spined pangolin
-  Baloz
-  Dhevështruesi
+  [temperament] [building_material] golem
+  slorg-beast
+  spined pangolin
+  baloz
+  dhevështruesi
   [swamp_adjective] duck
-  [good_adjective] Aardvark
+  [good_adjective] aardvark
   [animal]
   [goblinoid]
 
 bodypart
-  Arm
-  Leg
+  arm
+  leg
   columella
   spleen
   pinky toe
   belly button
-  Knuckles
-  Pelvis
-  Uvula
-  Coccyx
-  Spleen
-  Kidney
-  Gas-bloated stomach
-  Twitching cat tails
-  Rib
-  Wisdom tooth
-  Liver
-  Shoulder
+  knuckles
+  pelvis
+  uvula
+  coccyx
+  spleen
+  kidney
+  gas-bloated stomach
+  twitching cat tails
+  rib
+  wisdom tooth
+  liver
+  shoulder
   [swamp_adjective] [color] bone
-  Chest
+  chest
 
 books
   A tome
@@ -119,117 +119,117 @@ books
   Cthäat Aquadingen
   De Vermis Mysteriis
   [leader]'s Thesis
-  The [Animal] in the [structure]
+  The [animal] in the [structure]
   Almanac
   E-Reader
 
 building_material
-  Bricks
-  Bones
-  Discarded leather shoes
-  Pretzels
-  Rice paper
-  Cedar
-  Gold
+  bricks
+  bones
+  discarded leather shoes
+  pretzels
+  rice paper
+  cedar
+  gold
   windows
   [monster] pieces
-  Still-living trees
-  Tabby
+  still-living trees
+  tabby
   rock cakes
   gingerbread
-  Gypsum Board
+  gypsum board
   [color] glass
   rusted metal
-  Plasteel
+  plasteel
   basmati rice cooked in [icky-stuffs]
   iron untouched by [temperament] [faekind]
-  Laminated plywood
-  Carbon fiber composites
-  Cardboard and Duct Tape
-  Duplo blocks
-  [color] Plastic
-  Highly Polished Serpentine
-  Rough Cut Basalt
-  Wattle-and-daub
-  Adobe
+  laminated plywood
+  carbon fiber composites
+  cardboard and duct tape
+  duplo blocks
+  [color] plastic
+  highly polished serpentine
+  rough cut basalt
+  wattle-and-daub
+  adobe
   [book] pages
-  String
+  string
   [beast] bones
 
 color
-  Crimson
-  Prussian Blue
-  Red
-  Black
+  crimson
+  prussian blue
+  red
+  black
   [color] and [color] striped
-  Bluish-Green
-  Copper
-  Lavender
-  Yellow
-  Puce
-  Pistachio
+  bluish-green
+  copper
+  lavender
+  yellow
+  puce
+  pistachio
   white
   brown
-  Gamboge
-  Fuliginous
-  Crimson
-  Clover
-  Blood orange
-  Pewter
+  gamboge
+  fuliginous
+  crimson
+  clover
+  blood orange
+  pewter
   [color]-[color] melange
 
 conflict
-  Street fight
-  Nuclear escalation
-  Online trolling
+  street fight
+  nuclear escalation
+  online trolling
   duel between the elected champions [leader] & [leader]
   [game] tournament
-  The [good_adjective] great war of attrition
+  the [good_adjective] great war of attrition
   [relative] spat
   [dance]-off
-  Official and structured duel
-  Political Campaign
-  Transtellar war
+  official and structured duel
+  political campaign
+  transtellar war
   skirmish
   [beast] thumb war
   uprising of the [rank]s
-  Civil War
+  civil war
   staring contest
   [street] gang hit
-  Trade Embargo
-  Ideological Crusade
-  Civil War
-  War Between the [beast] and [monster]
-  Speed-reading contest
+  trade embargo
+  ideological crusade
+  civil war
+  war between the [beast] and [monster]
+  speed-reading contest
 
 dance
-  Waltz
-  Macarena
+  waltz
+  macarena
   breakdance
-  Monster Mash
-  Boot-scoot
-  The [planet] jig
-  Charleston
-  Morris dance
-  Swing
-  Foxtrot
-  Ghillie Callum
-  Irish jig
+  monster mash
+  boot-scoot
+  the [planet] jig
+  charleston
+  morris dance
+  swing
+  foxtrot
+  ghillie callum
+  irish jig
   [monster] slide
   [evil_adjective] romp
-  Ballet (en pointe)
-  Contemporary Lyrical
-  Lindy Hop
-  [star] Waltz
-  Vallja e cobanit
-  Beratçe
-  The Time Warp
-  Ritual Dance
-  [monster] Mash
-  [Flower]walk
+  ballet (en pointe)
+  contemporary lyrical
+  lindy hop
+  [star] waltz
+  vallja e cobanit
+  beratçe
+  the time warp
+  ritual dance
+  [monster] mash
+  [flower]walk
 
 deity
-  Aslok the [temperament], god of [pokey thing]
+  Aslok the [temperament], god of [pokey_thing]
   Bedliam the [temporal]
   Bob-Bob the [color], patron of those who cannot stay still, musicians, docked boats, and apples in water barrels
   Al-Fresco the [good_adjective], patron of strong fresh breezes, and those who eat quickly.
@@ -240,7 +240,7 @@ deity
   [goblinoid] Demigod of [occupational_duty]
   [conflict] God of [Temporal] [beast]
   Sonalda, Keeper of the 9 Sacred Ways to Pacify Your [Relatives] During the Holidays and the 6 Sacred Ways to End [conflict] Without Dying
-  Isssish, Beloved of [planet], Holder of the [good_adjective] [Pokey thing]
+  Isssish, Beloved of [planet], Holder of the [good_adjective] [pokey_thing]
   Captain of Kukudh
   Ἀλέξανδρος
   The Wild, Protector of Faekind
@@ -253,66 +253,66 @@ deity
   Aldomon, God of [bodypart]-breaking [building_material]
 
 direction
-  Over There
-  North
-  South
-  Upward
-  Closer to the [building_material] than before
-  Up
-  Go [direction], then head [direction] and finally [direction].
+  over there
+  north
+  south
+  upward
+  closer to the [building_material] than before
+  up
+  go [direction], then head [direction] and finally [direction].
   thither
   past the [structure] by the [location]
-  Abaft
-  West
-  Spinward
-  Sunward
-  Four streets ahead, take a left
-  Back to the last town you passed through
+  abaft
+  west
+  spinward
+  sunward
+  four streets ahead, take a left
+  back to the last town you passed through
   through wild and dangerous places
   toward [location]
-  Behind
-  Under
+  behind
+  under
 
 distance
   faraway
   far far away
   2 meters
-  Hairbreadth
-  Cubit
-  Right behind you
-  {1-6} Fathoms
-  {1-8} Arshins
+  hairbreadth
+  cubit
+  right behind you
+  {1-6} fathoms
+  {1-8} arshins
   yonder
   the other side of [location]
-  Adjacent
+  adjacent
   closer than they appear in this mirror
   further away than [leader] is willing to travel
-  Light Year
-  {1-6} Astronomical Units
-  {1-10} Hands
-  Parsec
-  Lightyear
+  light year
+  {1-6} astronomical units
+  {1-10} hands
+  parsec
+  lightyear
   down [street]
   between thought and deed
 
 evil_adjective
-  Vile
+  vile
   depraved
   malicious
-  Crudescent
-  Iniquitous
-  Contemptible
-  Pernicious
-  Evil
-  Lustful
-  Racist
-  Murderous
+  crudescent
+  iniquitous
+  contemptible
+  pernicious
+  evil
+  lustful
+  racist
+  murderous
   foresworn
   lying
   not at all [good_adjective]
   [swamp_adjective]
-  Blood-thirsty
-  Foul
+  blood-thirsty
+  foul
   [good_adjective]
   [flower]-scented
 
@@ -343,121 +343,121 @@ faction
   Bullies from North High School
 
 faekind
-  Pixie
+  pixie
   ancient elven [rank]
-  Half-elf/Half-[goblinoid]
-  Red Cap
-  Frost Maiden
-  Arbitrary and capricious spirit
+  half-elf/half-[goblinoid]
+  red cap
+  frost maiden
+  arbitrary and capricious spirit
   elemental
-  Brownie
+  brownie
   eladrin
   fae-[monster]
-  [evil_adjective] [animal]-Sprite
+  [evil_adjective] [animal]-sprite
   selkie
-  Clurichaun
-  Fuath
-  Bushtra
-  Kolivilor
+  clurichaun
+  fuath
+  bushtra
+  kolivilor
   [faekind]-[faekind] hybrid
   [beast]-fae
 
 flower
-  Roses
-  Corpse [flower]
+  roses
+  corpse [flower]
   plastic pentunias that smell [swamp_adjective]
   bottlebrush
-  Camelias
-  Pansies
+  camelias
+  pansies
   [color] lily
   [good_adjective] [color] [temperament] bell
-  Daffodil
-  Dracunculus vulgaris
+  daffodil
+  dracunculus vulgaris
   poppy
   foxglove
-  Oleander
-  Brugmansia
-  Bloom of [beast]
-  [building_material] Blossom
-  Orchid
-  Poppy
+  oleander
+  brugmansia
+  bloom of [beast]
+  [building_material] blossom
+  orchid
+  poppy
   [color] [beast]-flower
   [swamp_adjective] fluzior
 
 forbidden_thing
   artefacts
   consciousness transfer equipment and or spell
-  Breaking the 4th wall
+  breaking the 4th wall
   [book] of [evil_adjective] knowledge
-  A different gender's toilet
+  a different gender's toilet
   knowledge of who revealed [petty-thing] in the presence of [person]
   discarded toenail clippings
-  A cuban cigar
-  Gossip
+  a cuban cigar
+  gossip
   [undead] eyeball
-  Esoteric Knowledge
-  Captured Souls
-  Photosynthesis
-  Shrine of [deity]
-  Golem of [building_material]
+  esoteric knowledge
+  captured souls
+  photosynthesis
+  shrine of [deity]
+  golem of [building_material]
   transparent garden gnomes
   caramelised coffee beans
   [temperament] gas under high pressure
   raw [monster] [bodypart]
   [undead] summoning bracelet
-  Your wife's purse
-  A complete set of accounting books for [faction]
-  Krokodil (dihydrodesoxymorphine-D)
-  The Preserved Left Hand of [deity]
-  A Jar from the [Temporal] [structure]
-  Ezoran Logic
-  Onanism
-  Secret recipe
+  your wife's purse
+  a complete set of accounting books for [faction]
+  krokodil (dihydrodesoxymorphine-d)
+  the preserved left hand of [deity]
+  a jar from the [temporal] [structure]
+  ezoran logic
+  onanism
+  secret recipe
   [faekind] [building_material]
   [leader]'s secret diary
 
 game
   boules
   pin the [bodypart] on the [animal]
-  Dragon Poker
-  Dice Game
-  [animal] Poker
+  dragon poker
+  dice game
+  [animal] poker
   [rank]s and [rank]s
 
 goblinoid
   goblin
   [beast] rider
   goblin [rank]
-  Hobgoblin Warrior
-  Goblin Wizard
-  Nilbog
+  hobgoblin warrior
+  goblin wizard
+  nilbog
   hobgoblin
   half [goblinoid], half [goblinoid], covered in [icky_thing]
   [color] [goblinoid]
-  [temperament] [undead] Chieftan seeking [conflict]
-  [temperament] Boggart
-  Pukwudgie
-  Divi
-  Hajnjeri
+  [temperament] [undead] chieftan seeking [conflict]
+  [temperament] boggart
+  pukwudgie
+  divi
+  hajnjeri
 
 good_adjective
-  Righteous
+  righteous
   delightful
   [temperament] and punctual
-  Valiant
-  Pearlescent
-  Uber
-  Super
-  Beauteous
-  Unblemished
-  Good
-  Charitable
-  Loving
-  Mothering
+  valiant
+  pearlescent
+  uber
+  super
+  beauteous
+  unblemished
+  good
+  charitable
+  loving
+  mothering
   merciful
   compassionate
-  Pure
-  Honorable
+  pure
+  honorable
   [evil_adjective]
   [flower]-scented
 
@@ -468,16 +468,16 @@ icky_thing
   pond scum
   [monster] scat
   unidentified [color] slime
-  Pus
-  Effluent
+  pus
+  effluent
   [animal] vomit
-  Ingrown toenail
-  Effluvia
-  Corpse
-  Knackerman's floor
-  Unclean [goblinoid]
-  [Relatives]'s porridge
-  Used bandage
+  ingrown toenail
+  effluvia
+  corpse
+  knackerman's floor
+  unclean [goblinoid]
+  [relatives]'s porridge
+  used bandage
   [swamp_adjective] [icky_thing]
   decomposing [beast] [bodypart]
 
@@ -492,7 +492,7 @@ leader
   Green Egg Ham
   [color] [star], charismatic cult leader
   [size] Sword, top executioner
-  A time-traveling android that's unaware it's not the real Napoleon Bonaparte
+  a time-traveling android that's unaware it's not the real Napoleon Bonaparte
   Gorblid the [temperament]
   Keeper of the [color] [pet]
   Jimmy-James, [distance] from being dubbed the [temporal] friend to all [monster] and [beast]
@@ -511,60 +511,60 @@ leader
 location
   [planet]
   the [swamp_adjective] swamp
-  a [distant] land
+  {a} [distant] land
   St Pancras
   Madame DuPont's back room at [faction]'s speakeasy
   pond
   [monster]'s Lair
-  Space Port
-  Skyscraper
-  Pancreas
+  space port
+  skyscraper
+  pancreas
   [structure] beneath [street]
   Vault of the [forbidden_thing]
-  the [bodypart] of a [goblinoid]
+  the [bodypart] of {a} [goblinoid]
   the ground between a pile of [icky-stuffs] and a pile of [building_material]
   Disgraced [rank] Bar and [monster] Grill
   The [color] Arts District
   Moon of [planet]
   Breached Fortress of Anoros
-  Cruise ship
+  cruise ship
   [person]'s Tavern
   [leader]'s [size] [planet] Base
-  A [swamp_adjective] [structure] beneath [location]
+  {a} [swamp_adjective] [structure] beneath [location]
 
 meal
-  Afternoon Tea
-  Hearty Brunch
-  Second Breakfast
-  Midnight Snack
-  Elevenses
-  High tea
-  Against the diet snack
-  Celebratory feast
-  The Last Supper
-  [farm_animal], [monster], and [person] salad
-  Iocaine-laced tisane
-  Trail rations
-  Picnic
-  7-Course Dinner
-  Packed Lunch
-  Full Breakfast
+  afternoon tea
+  hearty brunch
+  second breakfast
+  midnight snack
+  elevenses
+  high tea
+  against the diet snack
+  celebratory feast
+  the last supper
+  [animal], [monster], and [person] salad
+  iocaine-laced tisane
+  trail rations
+  picnic
+  7-course dinner
+  packed lunch
+  full breakfast
   [swamp_adjective] [meal]
   [animal] soup
 
 monster
-  [size] Gelatinous cube
-  Rogue, sentient, [spacecraft]
+  [size] gelatinous cube
+  rogue, sentient, [spacecraft]
   clockwork robot inhabited by the consciousness of [person]
   [undead]
   [goblinoid]
   [faekind]
   [size] [planet] devourer
   [star]ian [beast]
-  [color] Dragon
-  Obviously Mechanical [person] or [monster]
-  [goblinoid] who thinks it's a [goblinoid]
-  [faekind] who thinks it's a [beast]
+  [color] dragon
+  obviously mechanical [person] or [monster]
+  [goblinoid] who thinks it's {a} [goblinoid]
+  [faekind] who thinks it's {a} [beast]
   [temperament] revenant of [leader]'s [pet]
   [undead] [beast]
   hamster archer
@@ -573,83 +573,91 @@ monster
   [size] [undead] [goblinoid]
   [swamp_adjective] [beast]
   [temperament] [pet]
-  Moon of [planet]
-  Breached Fortress of Anoros
-  Dust bunnies
-  [building_material] Golem
+  moon of [planet]
+  breached fortress of anoros
+  dust bunnies
+  [building_material] golem
   monstrous [animal]
   [beast]
 
+object
+  stake
+  pencil
+  fork
+  chopstick
+  walking stick
+  cane
+
 occupational_duty
-  Alphabetization
-  Necropsy
+  alphabetization
+  necropsy
   [monster] translation
   piloting
   weighing
   sublimation
   characterization of [temporal] [size] anomalies
   emptying the trash
-  Hypnotherapy
-  Playing the Mountebank
-  Fixing other people's problems
-  Tallying items
-  Scavenging
-  Begging
-  Guiding
-  Grading
-  Cleaning
-  Gardening
-  Praying to [deity]
+  hypnotherapy
+  playing the mountebank
+  fixing other people's problems
+  tallying items
+  scavenging
+  begging
+  guiding
+  grading
+  cleaning
+  gardening
+  praying to [deity]
   [animal]-herding
 
 person
   lover
   [leader]
   member of [faction]
-  The crazy cat lady across the [street]
+  the crazy cat lady across the [street]
   Genghis Khan
   Jorge, the friendly town undertaker who looks like David Bowie
   an innocent bystander
-  [size] bad [monster] who's having some trouble blowing down a [building_material] house
-  Illegitmate child of [leader]
-  Ex-spouse
+  [size] bad [monster] who's having some trouble blowing down {a} [building_material] house
+  illegitmate child of [leader]
+  ex-spouse
   Sir Cumference
   [faekind] cosplayer
-  Police person
-  Secret Agent
+  police person
+  secret agent
   Ögödei
   frenemy
   Bill, from [location]
   [person]'s ex-partner, who is now in a secret relationship with [leader]
-  Half a dozen red shirts
+  half a dozen red shirts
   Crazy Ivan
   THAT guy
   Cyprian, Gardener at the [faction] Consulate on [planet]
   Emmeld, Keeper of the Verdilean [book] at [structure]
-  Wealthy Procuress
-  [goblinoid] Beggar
+  wealthy procuress
+  [goblinoid] beggar
   [relative]
-  Dungeonkeeper
+  dungeonkeeper
 
 pet
   friendly [beast]
   [temperament] [size] [animal]
   friendly [undead] [monster]
   goldfish
-  [evil_adjective] [(farm) animal]
+  [evil_adjective] {[animal]|[beast]}
   hermit crab
-  Taxidermied [beast]
-  Robotic [beast]
-  Pet rock
+  taxidermied [beast]
+  robotic [beast]
+  pet rock
   [evil_adjective] parrot
-  Hedgehog
-  Pikachu
-  Slave-collared [person] (Reroll if this idea offends your table too much)
-  Very dumb {faekind|goblinoid}
-  [Structurs] rat
+  hedgehog
+  pikachu
+  slave-collared [person] (reroll if this idea offends your table too much)
+  very dumb {[faekind]|[goblinoid]}
+  [structure] rat
   [good_adjective] skunk
-  [good_adjective] Dog
-  [evil_adjective] Cat
+  [good_adjective] dog
+  [evil_adjective] cat
   [animal]
   [good_adjective] [undead]
 
@@ -684,61 +692,61 @@ pokey_thing
   [bodypart]
   sharpened wooden [object]
   [monster] talon
-  Purcupine
-  Hedgehog
-  Dagger
-  Trowel
-  Fingernails
-  Railroad Spike
-  Pocuswine quill
-  Stubborn fact
-  Beard
-  Sewing Needle
-  A Stick
-  Wand
-  [building_material] Sword
+  purcupine
+  hedgehog
+  dagger
+  trowel
+  fingernails
+  railroad spike
+  pocuswine quill
+  stubborn fact
+  beard
+  sewing needle
+  a stick
+  wand
+  [building_material] sword
   finger
 
 profession
-  Engineering
-  Lawyering
-  Retail manager
-  Guard
-  Wheelwright
-  Cistern shoveller
-  Children’s book illustrator
+  engineering
+  lawyering
+  retail manager
+  guard
+  wheelwright
+  cistern shoveller
+  children’s book illustrator
   [bodypart] merchant
-  Translator
-  Guide
-  Doctor
-  Lawyer
-  [beast]-Tamer
-  Priest of [deity]
+  translator
+  guide
+  doctor
+  lawyer
+  [beast]-tamer
+  priest of [deity]
 
 quarrels_and_petty_things
   the use of the Oxford comma
-  Common sense political position
-  The correct and precise way to make and serve tea
-  Shades of mauve
-  The proper way to pronounce scone
+  common sense political position
+  the correct and precise way to make and serve tea
+  shades of mauve
+  the proper way to pronounce scone
   who's been leaving the lid off the toothpaste tube
   toilet seats being left up
-  Lunch money
-  Pogs
-  Bringing up the time [leader]'s [conflict] killed your [flower]
-  Using internet slang in face to face conversation
+  lunch money
+  pogs
+  bringing up the time [leader]'s [conflict] killed your [flower]
+  using internet slang in face to face conversation
   whose turn it is to scoop [pet] waste
   disagreements about [leader]'s role in the formation of [faction] on [planet]
-  Whether LEGO® is a mass noun
-  Being late for dinner
-  Pointing out [person]'s bad habits
-  Proper cutlery to use when eating [beast]
-  Why it is never a good idea to live next to [location]
-  Who Killed Bambi
-  Whether Oswald acted alone
-  Cutting in line
-  Telling [flower] and [flower] apart
-  The nutritious value of [meal]
+  whether lego® is a mass noun
+  being late for dinner
+  pointing out [person]'s bad habits
+  proper cutlery to use when eating [beast]
+  why it is never a good idea to live next to [location]
+  who killed bambi
+  whether oswald acted alone
+  cutting in line
+  telling [flower] and [flower] apart
+  the nutritious value of [meal]
 
 rank
   courtier
@@ -764,47 +772,47 @@ rank
   Nënadmiral
   Secretary of State
 
-Relatives
-  Sibling
-  Step-[relative]
-  Cousin
+relative
+  sibling
+  step-[relative]
+  cousin
   {first|second|third|fourth|fifth} cousin
   [good_adjective] [good_adjective] father
-  Great Aunt
-  Second Cousin, Once Removed
-  Mother-in-law
-  Great Aunt
-  Adoptive Uncle
-  Grandma Esmerelda
-  Brother from another mother
-  Child
-  Grandchild
+  great aunt
+  second cousin, once removed
+  mother-in-law
+  great aunt
+  adoptive uncle
+  grandma esmerelda
+  brother from another mother
+  child
+  grandchild
   [relative] of [relative]
   parent
   twelfth cousin
   [relative]'s [relative]'s [relative]'s [relative]'s former roommate
-  Adopted Sibling
-  Cool Aunt
+  adopted sibling
+  cool aunt
 
 size
-  Small
-  Brobdingnagian
-  Giant
+  small
+  brobdingnagian
+  giant
   [size] [size]
   [monster]-sized
-  Cow
+  cow
   most bodacious
-  Subcompact
-  Minuscule
-  Average
-  Massive
-  Cawnie
-  Quantum
-  Epic
+  subcompact
+  minuscule
+  average
+  massive
+  cawnie
+  quantum
+  epic
   [beast] [bodypart]-sized
   kind of [size] to average
-  Petite
-  Cyclopean
+  petite
+  cyclopean
   [goblinoid] sized
   [monster] sized
   XXL
@@ -887,93 +895,93 @@ street
   [deity]'s Avenue
 
 structure
-  Sewer
-  Crypt of [leader]
+  sewer
+  crypt of [leader]
   [faction]'s headquarters
-  A [swamp_adjective] [structure] beneath [location]
+  {a} [swamp_adjective] [structure] beneath [location]
   bunker
   cave under [street]
   [size] gazebo
-  [leader]'s Ringworld
-  Pyramid
-  Skyscraper
-  Barbican
-  Space Dock
-  Wizard tower made of [building_material] & force, guarded by [monster]
-  Maze
-  Ziggurat of [temporal] [deity]
-  Hidden Warehouse 187
-  Palace of Thought and Irony
-  Collapsed [building_material] house
-  Repair Shop
-  [icky_thing] Tavern
-  Bridge
-  Aquaduct
+  [leader]'s ringworld
+  pyramid
+  skyscraper
+  barbican
+  space dock
+  wizard tower made of [building_material] & force, guarded by [monster]
+  maze
+  ziggurat of [temporal] [deity]
+  hidden warehouse 187
+  palace of thought and irony
+  collapsed [building_material] house
+  repair shop
+  [icky_thing] tavern
+  bridge
+  aquaduct
 
-swampy_adjective
+swamp_adjective
   gloomy
   malodorous
   heavy
   three-danger
   [monster]-infested
-  Dank
-  Stinky
-  Noisome
+  dank
+  stinky
+  noisome
   dreary
   [color] moss-filled
   surprisingly affable
   shrunken [bodypart]-shaped
   expanse of decaying [flower]
-  Miasmic
-  Squelchy
-  Dreary
-  Sinking
+  miasmic
+  squelchy
+  dreary
+  sinking
   [icky_thing]-scented
   [bodypart]-filled
 
 temperament
   [good_adjective]
-  Volatile
-  Stoic
-  Tired
-  Buzzing
-  Noble
-  Belligerent
-  Timid
+  volatile
+  stoic
+  tired
+  buzzing
+  noble
+  belligerent
+  timid
   quavering
-  Inflexible
-  Kind
-  Drug-addled
-  Erratic
-  Valorous
+  inflexible
+  kind
+  drug-addled
+  erratic
+  valorous
   vivaciously [temperament]
   [evil_adjective]
-  Furious
+  furious
   exasperated
-  Calculatingly [evil_adjective]
-  Stressed about [conflict] or visiting [leader]
-  As bashful as a [monster]
-  As serious as a [rank]
+  calculatingly [evil_adjective]
+  stressed about [conflict] or visiting [leader]
+  as bashful as {a} [monster]
+  as serious as {a} [rank]
 
 temporal
   sudden
-  Lingering
+  lingering
   yet to be announced
   spontaneous
   during [game] playtime
-  Will already have happened (time travel related tense)
-  In the distant past
-  Anticline Reflection
+  will already have happened (time travel related tense)
+  in the distant past
+  anticline reflection
   instant
   retroactive
   [temperament] {1-8} minutes
-  time it takes a [monster] to walk from [location] to the nearest [building_material]
-  Carnal Perpetuity
+  time it takes {a} [monster] to walk from [location] to the nearest [building_material]
+  carnal perpetuity
   decades-long
-  Just Completed
-  Yet to Come to Pass
-  Anti-chronological
-  Mañana
+  just completed
+  yet to come to pass
+  anti-chronological
+  mañana
   {1-6} microfortnights
   brief in the geological sense
 
@@ -981,24 +989,24 @@ undead
   zombie
   ghost
   WereRabbit
-  The last vampire
+  the last vampire
   [evil_adjective] ghost
   skeletal [beast]
   Living Shadow
-  Head in a jar
-  Fast, wet zombie
+  head in a jar
+  fast, wet zombie
   lich
   ghoul
   capybara
   dung beetle
-  shambling mass of [icky-stuffs] with a [monster] [bodypart], [monster] [bodypart], [monster] [bodypart], and [monster] [bodypart] randomly poking out from it
+  shambling mass of [icky-stuffs] with {a} [monster] [bodypart], [monster] [bodypart], [monster] [bodypart], and [monster] [bodypart] randomly poking out from it
   [undead] of [rank] [person], returned from the dead
   corpse eater
-  [temperament] [goblinoid] Revenant seeking [conflict]
-  Draugr
-  Possessed [building_material], inhabited by the spirit of [relative]
-  Dhampir
-  Avullushe
+  [temperament] [goblinoid] revenant seeking [conflict]
+  draugr
+  possessed [building_material], inhabited by the spirit of [relative]
+  dhampir
+  avullushe
   zombie [beast]
   [rank] skeletal [goblinoid]
 
