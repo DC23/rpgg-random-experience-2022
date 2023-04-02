@@ -245,7 +245,7 @@ deity
   The other One True God
   Coriander the [temperament]
   [goblinoid] Demigod of [occupational_duty]
-  [conflict] God of [Temporal] [beast]
+  [conflict] God of [temporal] [beast]
   Sonalda, Keeper of the 9 Sacred Ways to Pacify Your [relative] During the Holidays and the 6 Sacred Ways to End [conflict] Without Dying
   Isssish, Beloved of [planet], Holder of the [good_adjective] [pokey_thing]
   Captain of Kukudh
