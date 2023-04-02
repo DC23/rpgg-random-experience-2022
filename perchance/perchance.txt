@@ -1,5 +1,12 @@
-title
-  Events that I don't want to go through all the trouble to run.
+options
+  title = Events that I don't want to go through all the trouble to run
+  subtitle = Created by the Geeks of the<br/><a href="https://rpggeek.com/thread/2942480/2022-r-n-d-o-m-design-experience">2022 R-A-N-D-O-M Design Experience</a>
+  footer = Perchance implementation by <a href="https://perchance.org/jugglindan-generators">JugglinDan, 2023</a>
+//  imageUrl = https://cf.geekdo-images.com/qnKyylFt6w3AHCgRpXbdow__imagepage/img/uBqt7t8P-8Z1WqlihHjIe_xX3hM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6733989.jpg
+  imageUrl = https://www.goodfreephotos.com/albums/vector-images/tabletop-rpg-dice-set-vector-clipart.png
+//  imageUrl = https://i.imgur.com/1RNYuuo.png   // upload your image here: imgur.com/upload  no user account required (and they never delete or watermark your image). Right-click on the uploaded image to get the image url.
+  imageSize = 120
+  buttonText = Create New Event
 
 output
   The [temporal] [conflict] between [faction] and [faction] brought on by the assassination of [leader].
@@ -106,7 +113,7 @@ book
   The Life and Times of [leader], the [temperament], as chronicled by [person]
   A Comprehensive Guide to the Differences between [animal] and [animal]
   Ruminations of 19 different [animal]
-  What your [Pet] actually thinks of you
+  What your [pet] actually thinks of you
   quasi religious text of the [faction]
   writings of [leader] on [forbidden_thing]
   a slender volume
@@ -878,7 +885,7 @@ street
   [swamp_adjective] [forbidden_thing] Boulevarde
   [leader]'s [color] Avenue
   Downing Street
-  [Flower] Crescent
+  [flower] Crescent
   [leader] Way
   Dr. [undead] [faekind] [beast] Boulevard
   Main Street
